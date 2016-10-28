@@ -1,0 +1,26 @@
+{
+  "title": "Types in R",
+  "description": "Introduction to R types",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+      "title": "Basic Types",
+      "text": "step1.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart R using `R()`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "rlang"
+  }
+}
