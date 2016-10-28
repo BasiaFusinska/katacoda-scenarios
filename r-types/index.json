@@ -15,6 +15,26 @@
     {
       "title": "Vectors",
       "text": "step3.md"
+    },
+    {
+      "title": "Lists",
+      "text": "step4.md"
+    },
+    {
+      "title": "Named elements",
+      "text": "step5.md"
+    },
+    {
+      "title": "Accessing elements",
+      "text": "step6.md"
+    },
+    {
+      "title": "Matrixes",
+      "text": "step7.md"
+    },
+    {
+      "title": "Data frames",
+      "text": "step8.md"
     }],
     "intro": {
       "text": "intro.md",
@@ -26,7 +46,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart R using `R()`\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart R using `R` command\u001b[m\r\n"
   },
   "backend": {
     "imageid": "rlang"
