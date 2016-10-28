@@ -1,18 +1,10 @@
-This is your first step.
-
-## Task
-
-This is an _example_ of creating a scenario and running a **command**
-
-`echo 'Hello World'`{{execute}}
-
 Like many other languages, R has a variety of basic types and more complex types that can be created from the 'atomic' ones. Basic types in R are:
 
-numeric (real)
-integer
-character
-logical
-complex
+* numeric (real)
+* integer
+* character
+* logical
+* complex
 
 Creating a variable of a specific type can be done by using assign `<-` operator:
 

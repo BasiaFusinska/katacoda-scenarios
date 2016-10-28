@@ -7,6 +7,14 @@
     "steps": [{
       "title": "Basic Types",
       "text": "step1.md"
+    },
+    {
+      "title": "Finding out the types",
+      "text": "step2.md"
+    },
+    {
+      "title": "Vectors",
+      "text": "step3.md"
     }],
     "intro": {
       "text": "intro.md",
