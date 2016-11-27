@@ -14,10 +14,11 @@ You can do similar things with matrixes and data frames, but using vectors for t
 as.data.frame(v)
 as.data.frame(l)`{{execute}}
 
-Notice that for the data frame conversion creates the column for the vector and row for the list.
+Notice that for the data frame conversion creates the *column* for the vector and *row* for the list.
 
 Conversions between matrixes and data frames are much more compelling.
 As you may remember matrixes are 2 dimensional structures containing values of the same type, while data frames have the type constraint only in the column spectrum.
+
 Using matrix to create a data frame can be achieved by conversion function `as.data.frame` or just creation `data.frame`:
 
 `A <- matrix(1:15, ncol=3, nrow=5)

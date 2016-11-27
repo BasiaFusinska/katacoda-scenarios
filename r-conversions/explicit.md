@@ -1,4 +1,4 @@
-So far we covered implicit, automatic conversions that happen often without the knowledge of the programmer. Of course R offers a way to convert types intentionally.
+So far we covered implicit automatic conversions that happen often without the knowledge of the programmer. Of course R offers a way to convert types intentionally.
 
 First thing you might want to do when using explicit conversion is to check if the variable is of a desired type. You can use `is.<type>` functions for this. For example:
 
@@ -7,7 +7,7 @@ is.numeric(TRUE)`{{execute}}
 
 Once you know that the conversions exists you can use `as.<type>` to make it happen.
 
-As you probably imagine conversion to text usually succeeds:
+As you probably imagine conversions to text usually succeed:
 
 `as.character(5)
 as.character(factor('a'))

@@ -1,8 +1,8 @@
-Factors are a specific type in R that represents enumeration or category.
-This type resemble char type, but plays a different role.
+*Factors* are a specific type in R that represents enumeration or category.
+This type resembles char type, but plays a different role.
 Category can be represented by a number and text, the difference is how it is treated.
 
-Regardless of the representation it cannot be used in calculations or text operations. You should consider it as the enumerable type. In languages like C# or Java it's equivalent to `enum` type.
+Regardless of the representation it cannot be used in calculations or text operations. You should consider it as the enumerable type. In languages like C# or Java it's equivalent to *enum* type.
 
 To create a factor one should use `factor` function.
 
@@ -16,7 +16,7 @@ You can check the type of `categories` by using `typeof` or `[0]` index.
 `typeof(categories)
 categories[0]`{{execute}}
 
-First there is `factor` returned as a type, second instruction returns `integer`. You may be familiar with integers from different programming languages, but in R it plays different role - a factor.
+First there is `factor` returned as a type, second instruction returns `integer`. You may be familiar with integers from different programming languages, but in R it plays different role - a *factor*.
 
 You can check that there are no calculations available for factors:
 
@@ -30,3 +30,5 @@ One is `summary`, second is `levels`. `summary` shows you factors values distrib
 For the `category` variable, there are 4 elements of values `A` and `B` and 2 of value `C`.
 
 `levels` function gives you the list of unique factors. Notice this list is sorted and the levels are not shown in the order of how they appear in the `categories` variable.
+
+`levels(categories)`{{execute}}

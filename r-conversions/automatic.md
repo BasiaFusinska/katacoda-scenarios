@@ -5,6 +5,8 @@ The same is true when the original vector values are text:
 b
 typeof(b)`{{execute}}
 
+If you set up one of the values as numeric, another conversion happens:
+
 `b[5] <- 3
 b
 typeof(b)`{{execute}}
@@ -22,4 +24,6 @@ Once you assign numeric value the type changes:
 c
 typeof(c)`{{execute}}
 
-Implicit conversions can introduce several problems because they just happen automatically and don't notify the programmer. One can easily imagine a situation when while reading data from a file they are treated like text/factor/integer instead of the desired type. Just because there is a typo in the file or a missing value.
+Implicit conversions can introduce several problems because they just happen automatically and don't notify the programmer.
+
+One can easily imagine a situation when while reading data from a file they are treated like text/factor/integer instead of the desired type. Just because there is a typo in the file or a missing value.
