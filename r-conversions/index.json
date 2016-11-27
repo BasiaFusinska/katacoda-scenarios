@@ -1,0 +1,50 @@
+{
+  "title": "Types conversions in R",
+  "description": "Introduction to types conversions for R types",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+      "title": "Implicit conversions",
+      "text": "implicit.md"
+    },
+    {
+      "title": "Automatic conversions",
+      "text": "automatic.md"
+    },
+    {
+      "title": "Factors",
+      "text": "factors.md"
+    },
+    {
+      "title": "Factors implicit conversions",
+      "text": "factors_implicit.md"
+    },
+    {
+      "title": "Eplicit conversions",
+      "text": "explicit.md"
+    },
+    {
+      "title": "NA value",
+      "text": "na.md"
+    },
+    {
+      "title": "Complex types conversions",
+      "text": "complex.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart R using `R` command\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "rlang"
+  }
+}
