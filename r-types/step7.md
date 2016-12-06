@@ -21,3 +21,7 @@ C`{{execute}}
 
 `D <- matrix(c(1,2,3,4), ncol=3, nrow=2)
 D`{{execute}}
+
+To access the elements of the matrix you can use `[,]`.
+
+`B[1,2]`{{execute}}

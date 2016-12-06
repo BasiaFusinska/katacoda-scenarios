@@ -10,3 +10,7 @@ dataFrame`{{execute}}
 If you try to find out the type of the created data frame it will be a list:
 
 `typeof(dataFrame)`{{execute}}
+
+Similarly to lists we get an easy way to access the columns, using `$` symbol.
+
+`dataFrame$col2`{{execute}}
