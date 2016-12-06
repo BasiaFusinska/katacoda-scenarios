@@ -1,0 +1,50 @@
+{
+  "title": "Filtering data in R",
+  "description": "Introduction to filtering and indexing data",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+      "title": "Logical conditions",
+      "text": "conditions.md"
+    },
+    {
+      "title": "Using functions",
+      "text": "functions.md"
+    },
+    {
+      "title": "Filtering functions",
+      "text": "filtering.md"
+    },
+    {
+      "title": "Indexing",
+      "text": "indexing.md"
+    },
+    {
+      "title": "Filtering data frames by columns",
+      "text": "dataframescolumns.md"
+    },
+    {
+      "title": "Filtering data frames by rows",
+      "text": "dataframesrows.md"
+    },
+    {
+      "title": "Handling the complexity of conditions",
+      "text": "complex.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart R using `R` command\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "rlang"
+  }
+}
