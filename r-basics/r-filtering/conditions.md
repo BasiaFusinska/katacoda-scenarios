@@ -20,15 +20,3 @@ Conditions and parenthesis can be used for lists too. Just remember that because
 `A <- as.list(1:10)
 A
 A[A > 4]`{{execute}}
-
-
-`typeof(a)`{{execute}}
-
-Now let us put a value of some other type there:
-
-`a[5] <- 'some text'`{{execute}}
-
-You can see that the type of the whole vector has changed as implicit conversion to string typed happened:
-
-`a
-typeof(a)`{{execute}}
