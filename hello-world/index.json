@@ -2,6 +2,7 @@
   "title": "Hello World Scenario",
   "description": "Your First Scenario",
   "difficulty": "beginner",
+  "live": false,
   "time": "2 minutes",
   "details": {
     "steps": [{
