@@ -7,7 +7,11 @@
     "steps": [{
       "title": "MNIST Dataset",
       "text": "dataset.md"
-    }],
+      },
+      {
+        "title": "Dense layer",
+        "text": "dense.md"
+      }],
     "intro": {
       "text": "intro.md",
       "credits": ""
