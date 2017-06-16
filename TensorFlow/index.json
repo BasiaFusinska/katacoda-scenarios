@@ -22,7 +22,7 @@
     "DenseReLU": [{"file": "DenseReLU.py", "target": "~/"}],
     "Conv": [{"file": "Conv.py", "target": "~/"}],
     "2-Conv": [{"file": "2-Conv.py", "target": "~/"}],
-    "ConvDropout": [{"file": "ConvDropout.py", "target": "~/"}],
+    "ConvDropout": [{"file": "ConvDropout.py", "target": "~/"}]
   },
   "files": [
     "help.py"
