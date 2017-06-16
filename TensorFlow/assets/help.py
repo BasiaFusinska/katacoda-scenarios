@@ -1,0 +1,75 @@
+import tensorflow as tf
+import numpy as np
+
+from tensorflow.examples.tutorials.mnist import input_data
+
+def read_mnist(folder_path="MNIST_data/"):
+    return input_data.read_data_sets(folder_path, one_hot=True)
+
+def build_training(y_labels, y_output, learning_rate=0.5):
+    # Define loss function
+    loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=y_labels, logits=y_output))
+    #train_step = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss)
+    train_step = tf.train.AdamOptimizer(1e-4).minimize(loss)
+
+    # Calculate accuracy
+    correct_prediction = tf.equal(tf.argmax(y_output,1), tf.argmax(y_labels,1))
+    accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
+    return train_step, accuracy
+
+def train_test_model(mnist, x_input, y_labels, accuracy, train_step, steps=1000, batch=100):
+    sess = tf.InteractiveSession()
+    sess.run(tf.global_variables_initializer())
+    for i in range(steps):
+      input_batch, labels_batch = mnist.train.next_batch(batch)
+      feed_dict = {x_input: input_batch, y_labels: labels_batch}
+
+      if i%100 == 0:
+        train_accuracy = accuracy.eval(feed_dict=feed_dict)
+        print("Step %d, training batch accuracy %g"%(i, train_accuracy))
+
+      train_step.run(feed_dict=feed_dict)
+
+    print("The end of training!")
+
+    print("Test accuracy: %g"%partial_accuracy(mnist.test, accuracy, x_input, y_labels))
+    print("Validation accuracy: %g"%partial_accuracy(mnist.validation, accuracy, x_input, y_labels))
+
+def partial_accuracy(data, accuracy, x_input, y_labels):
+    final_accuracy = 0
+    set_len = len(data.images)
+    for i in range(100):
+        start = set_len/100 * i
+        end = set_len/100 * (i+1)
+        feed_dict={x_input: data.images[start:end], y_labels: data.labels[start:end]}
+        final_accuracy += accuracy.eval(feed_dict=feed_dict)
+    return np.float32(final_accuracy)/100
+
+def train_test_model_dropout(mnist, x_input, y_labels, accuracy, train_step, should_drop, steps=1000, batch=100):
+    sess = tf.InteractiveSession()
+    sess.run(tf.global_variables_initializer())
+    for i in range(steps):
+      input_batch, labels_batch = mnist.train.next_batch(batch)
+      feed_dict = {x_input: input_batch, y_labels: labels_batch, should_drop: True}
+      feed_dict_test = {x_input: input_batch, y_labels: labels_batch, should_drop: False}
+
+      if i%100 == 0:
+        train_accuracy = accuracy.eval(feed_dict=feed_dict_test)
+        print("Step %d, training batch accuracy %g"%(i, train_accuracy))
+
+      train_step.run(feed_dict=feed_dict)
+
+    print("The end of training!")
+
+    print("Test accuracy: %g"%partial_accuracy_dropout(mnist.test, accuracy, x_input, y_labels, should_drop))
+    print("Validation accuracy: %g"%partial_accuracy_dropout(mnist.validation, accuracy, x_input, y_labels, should_drop))
+
+def partial_accuracy_dropout(data, accuracy, x_input, y_labels, should_drop):
+    final_accuracy = 0
+    set_len = len(data.images)
+    for i in range(100):
+        start = set_len/100 * i
+        end = set_len/100 * (i+1)
+        feed_dict={x_input: data.images[start:end], y_labels: data.labels[start:end], should_drop: False}
+        final_accuracy += accuracy.eval(feed_dict=feed_dict)
+    return np.float32(final_accuracy)/100

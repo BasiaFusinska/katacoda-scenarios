@@ -16,8 +16,19 @@
       "text": "finish.md"
     }
   },
+  "assets": {
+    "help": [{"file": "help.py", "target": "~/"}],
+    "Dense": [{"file": "Dense.py", "target": "~/"}],
+    "DenseReLU": [{"file": "DenseReLU.py", "target": "~/"}],
+    "Conv": [{"file": "Conv.py", "target": "~/"}],
+    "2-Conv": [{"file": "2-Conv.py", "target": "~/"}],
+    "ConvDropout": [{"file": "ConvDropout.py", "target": "~/"}],
+  },
+  "files": [
+    "help.py"
+  ],
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "editor-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
   },
   "backend": {
