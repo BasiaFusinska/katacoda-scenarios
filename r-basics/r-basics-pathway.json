@@ -1,0 +1,26 @@
+{
+  "title": "R Basics",
+  "description": "Learn basics of the R language",
+  "courses": [
+    {
+      "course_id": "r-environment",
+      "title": "R Environment",
+      "description": "Introduction to R development environment"
+    },
+    {
+      "course_id": "r-types",
+      "title": "Types in R",
+      "description": "Introduction to R types"
+    },
+    {
+      "course_id": "r-conversions",
+      "title": "Types conversions in R",
+      "description": "Introduction to types conversions for R types"
+    },
+    {
+      "course_id": "r-filtering",
+      "title": "Filtering data in R",
+      "description": "Introduction to filtering and indexing data"
+    }
+  ]
+}
