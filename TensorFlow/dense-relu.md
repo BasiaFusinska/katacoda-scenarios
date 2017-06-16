@@ -1,21 +1,17 @@
-Let's start simple and create the network with just one output layer. Open the `dense.py`{{open}} file and look at the code. The process starts with importing libraries that are needed further, including `tensorflow`, `numpy` and `help` functions (from the `help.py` file). Then the dataset is loaded into the `mnist` variable. It stores training, test and validation data with the corresponding labels. This process flattens 2D files and keeps the data as 1-dimention arrays.
+Our first network isn't impressive regarding accuracy level. But because of the simplicity, it runs very fast. You could try out changing the learning rate or steps number in the `train_test_model` function to check if it influences the results.
 
-![Flattened MNIST](assets/MNIST-flat.png)
+For this part of the scenario, we will add another *dense layer* to our network and place it between the *input* and *output* ones. This type is called a *hidden layer* and can be visualised like this:
 
-The next step is to build your NN architecture. We start with defining the placeholders for the input data (`x_input`) and labels (`y_labels`). During the training phase, they will be filled with the data from the MNIST dataset.
+![Dense hidden layer](assets/images/Dense-hidden.png)
 
-Now is the time for the interesting part - our output layer. The magic behind it is quite straightforward. Every neurone has the *weight* and *bias* parameters, get's the input from every input and performs some calculations:
+If you open the `DenseReLU.py`{{open}} file, you can see the minor changes when comparing with the previous architecture. First of all, there is another parameter `hidden_size` indicating the size (number of neurones) of the hidden layer. The definition itself takes the input data and connects to the output layer:
 
-![Dense output layer](assets/Dense.png)
+`hidden = tf.layers.dense(inputs=x_input, units=hidden_size, activation=tf.nn.relu)`
 
-The result is the number between 0 and 1. The winning neurone indicates the classified digit label.
+Notice that this time we used `activation` parameter. It is set to run whatever comes out of the neurone through the activation function which in this case is [ReLU](https://en.wikipedia.org/wiki/Rectifier_(neural_networks). It has been proven to work quite well with deep architectures.
 
-Tensorflow allows you to formulate all the calculations or just use the build-in definitions from the `tf.layers` set. In our case the network architecture can be cumulated using the following line of code:
+The rest of the code is unchanged and can be executed by using the following command:
 
-`y_output = tf.layers.dense(inputs=x_input, units=labels_size)`
+`python DenseReLU.py`{{execute}}
 
-Once we've built the network we need to specify the training process, during which all the parameters will be set to the proper values. It has been done for you in the `build_training` helper function. The last line runs the whole process and displays the results of the performance on the test data.
-
-To see the whole process and train your first neural network run the `Dense.py` file:
-
-`python Dense.py`{{execute}}
+You should notice a slight decrease in performance. Our network is becoming deeper which mean it's getting more parameters to be tuned and this makes the training process longer. On the other hand, this will make the accuracy more tuned.
