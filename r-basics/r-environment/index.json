@@ -1,0 +1,42 @@
+{
+  "title": "R Environment",
+  "description": "Introduction to R development environment",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+      "title": "Running the code",
+      "text": "running.md"
+    },
+    {
+      "title": "Variables",
+      "text": "variables.md"
+    },
+    {
+      "title": "Assigning values",
+      "text": "assigning.md"
+    },
+    {
+      "title": "Exploring the environment",
+      "text": "exploring.md"
+    },
+    {
+      "title": "Cleaning the environment",
+      "text": "cleaning.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart R using `R` command\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "rlang"
+  }
+}
