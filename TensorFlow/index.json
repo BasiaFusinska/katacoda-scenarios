@@ -5,8 +5,8 @@
   "time": "30 minutes",
   "details": {
     "steps": [{
-      "title": "Training process",
-      "text": "step1.md"
+      "title": "MNIST Dataset",
+      "text": "dataset.md"
     }],
     "intro": {
       "text": "intro.md",
@@ -17,12 +17,12 @@
     }
   },
   "assets": {
-    "help": [{"file": "help.py", "target": "~/"}],
-    "Dense": [{"file": "Dense.py", "target": "~/"}],
-    "DenseReLU": [{"file": "DenseReLU.py", "target": "~/"}],
-    "Conv": [{"file": "Conv.py", "target": "~/"}],
-    "2-Conv": [{"file": "2-Conv.py", "target": "~/"}],
-    "ConvDropout": [{"file": "ConvDropout.py", "target": "~/"}]
+    "client": [{"file": "help.py", "target": "~/"},
+              {"file": "Dense.py", "target": "~/"},
+              {"file": "DenseReLU.py", "target": "~/"},
+              {"file": "Conv.py", "target": "~/"},
+              {"file": "2-Conv.py", "target": "~/"},
+              {"file": "ConvDropout.py", "target": "~/"}]
   },
   "files": [
     "help.py"
