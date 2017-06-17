@@ -11,6 +11,14 @@
       {
         "title": "Dense layer",
         "text": "dense.md"
+      },
+      {
+        "title": "Hidden dense layer",
+        "text": "dense-relu.md"
+      },
+      {
+        "title": "Convolutional layer",
+        "text": "convolutional.md"
       }],
     "intro": {
       "text": "intro.md",
@@ -18,15 +26,15 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "help.py", "target": "~/"},
+                {"file": "Dense.py", "target": "~/"},
+                {"file": "DenseReLU.py", "target": "~/"},
+                {"file": "Conv.py", "target": "~/"},
+                {"file": "2-Conv.py", "target": "~/"},
+                {"file": "ConvDropout.py", "target": "~/"}]
     }
-  },
-  "assets": {
-    "client": [{"file": "help.py", "target": "~/"},
-              {"file": "Dense.py", "target": "~/"},
-              {"file": "DenseReLU.py", "target": "~/"},
-              {"file": "Conv.py", "target": "~/"},
-              {"file": "2-Conv.py", "target": "~/"},
-              {"file": "ConvDropout.py", "target": "~/"}]
   },
   "files": [
     "help.py"
