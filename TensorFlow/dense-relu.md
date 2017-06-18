@@ -1,4 +1,4 @@
-Our first network isn't impressive regarding accuracy level. But because of the simplicity, it runs very fast. You could try out changing the learning rate or steps number in the `train_test_model` function to check if it influences the results.
+Our first network isn't that impressive regarding the accuracy level. But because of the simplicity, it runs very fast. You could try out changing the learning rate or steps number in the `train_test_model` function to check if this influences the results.
 
 For this part of the scenario, we will add another *dense layer* to our network and place it between the *input* and *output* ones. This type is called a *hidden layer* and can be visualised like this:
 

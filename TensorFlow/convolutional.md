@@ -2,7 +2,7 @@ The next two layers we're going to add are the integral parts of *convolutional 
 
 ![Convolution](assets/convolution.png)
 
-The parameters of the [convolutional layer](https://en.wikipedia.org/wiki/Convolutional_neural_network) are the size of the kernel (size of the convolution window) and the number of filters. Padding set as same indicates that the resulting layer is of the same size. After this step, we apply *max pooling*. The resulting architecture can be visualised as follows:
+The parameters of the [convolutional layer](https://en.wikipedia.org/wiki/Convolutional_neural_network) are the size of the *kernel* (size of the convolution window) and the number of *filters*. *Padding* set as `"same"` indicates that the resulting layer is of the same size. After this step, we apply *max pooling*. The resulting architecture can be visualised as follows:
 
 ![Convolutional network](assets/convolutional.png)
 
@@ -12,8 +12,11 @@ Using convolutional techniques allow us to take advantage of the 2D representati
 
 You can see the code for convolution and max pooling below. Notice that for the next connection with the dense layer requires the output to be flattened back.
 
-`conv = tf.layers.conv2d(inputs=x_image, filters=32, kernel_size=[5, 5], padding="same", activation=tf.nn.relu)
-pool = tf.layers.max_pooling2d(inputs=conv, pool_size=[2, 2], strides=2)
+`conv = tf.layers.conv2d(inputs=x_image,
+  filters=32, kernel_size=[5, 5],
+  padding="same", activation=tf.nn.relu)
+pool = tf.layers.max_pooling2d(inputs=conv,
+  pool_size=[2, 2], strides=2)
 pool_flat = tf.reshape(pool, [-1, 14 * 14 * 32])`
 
 To run the example use the following command:

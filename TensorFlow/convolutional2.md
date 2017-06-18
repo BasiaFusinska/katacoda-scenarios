@@ -6,8 +6,11 @@ The network architecture looks like this now:
 
 We again are using the 2D input and flatten the output of the second layer. But the first one doesn't need it now, as the convolution works with higher dimensions.
 
-`conv2 = tf.layers.conv2d(inputs=pool1, filters=64, kernel_size=[5, 5], padding="same", activation=tf.nn.relu)
-pool2 = tf.layers.max_pooling2d(inputs=conv2, pool_size=[2, 2], strides=2)
+`conv2 = tf.layers.conv2d(inputs=pool1,
+  filters=64, kernel_size=[5, 5],
+  padding="same", activation=tf.nn.relu)
+pool2 = tf.layers.max_pooling2d(inputs=conv2,
+  pool_size=[2, 2], strides=2)
 pool_flat = tf.reshape(pool2, [-1, 7 * 7 * 64])`
 
 To run the example use the following code:
