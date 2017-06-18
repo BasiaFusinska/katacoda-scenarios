@@ -23,6 +23,10 @@
       {
         "title": "Two Convolutional layers",
         "text": "convolutional2.md"
+      },
+      {
+        "title": "Dropout",
+        "text": "dropout.md"
       }],
     "intro": {
       "text": "intro.md",

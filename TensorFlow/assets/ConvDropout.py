@@ -37,7 +37,7 @@ hidden = tf.layers.dense(inputs=pool_flat, units=hidden_size, activation=tf.nn.r
 dropout = tf.layers.dropout(inputs=hidden, rate=0.5, training=should_drop)
 
 # Output dense layer
-y_output = tf.layers.dense(inputs=hidden, units=labels_size)
+y_output = tf.layers.dense(inputs=dropout, units=labels_size)
 
 # Define training
 train_step, accuracy = help.build_training(y_labels, y_output)
