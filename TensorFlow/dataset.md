@@ -7,4 +7,4 @@ We will be working on the [MNIST dataset](http://yann.lecun.com/exdb/mnist/). Th
 
 ![MNIST Classification](assets/images/MNIST-classification.png)
 
-If you look at the *help.py* code, you can see the `read_mnist` function that uses built-in capabilities of TensorFlow to download the dataset locally and load it into the python variable. As a result (if not specified otherwise), the data will be downloaded into the `MNIST_data/` folder.
+If you look at the `help.py`{{open}} code, you can see the `read_mnist` function that uses built-in capabilities of TensorFlow to download the dataset locally and load it into the python variable. As a result (if not specified otherwise), the data will be downloaded into the `MNIST_data/` folder.
