@@ -1,10 +1,10 @@
 The next two layers we're going to add are the integral parts of *convolutional networks*. They work differently than the dense ones and perform especially well with 2- and more dimensions input. You can see how they run in the following picture.
 
-![Convolution](assets/convolution.png)
+![Convolution](assets/images/convolution.png)
 
 The parameters of the [convolutional layer](https://en.wikipedia.org/wiki/Convolutional_neural_network) are the size of the *kernel* (size of the convolution window) and the number of *filters*. *Padding* set as `"same"` indicates that the resulting layer is of the same size. After this step, we apply *max pooling*. The resulting architecture can be visualised as follows:
 
-![Convolutional network](assets/convolutional.png)
+![Convolutional network](assets/images/convolutional.png)
 
 Using convolutional techniques allow us to take advantage of the 2D representation of the input data. We'd lost it when flattened the digits pictures and feeding the data into the dense layer. To go back to the original structure we can use `reshape` function. The code can be found in the `Conv.py`{{open}} file.
 

@@ -41,7 +41,16 @@
                 {"file": "DenseReLU.py", "target": "~/"},
                 {"file": "Conv.py", "target": "~/"},
                 {"file": "2-Conv.py", "target": "~/"},
-                {"file": "ConvDropout.py", "target": "~/"}]
+                {"file": "ConvDropout.py", "target": "~/"},
+                {"file": "MNIST-flat.png", "target": "~/images/"},
+                {"file": "MNIST-classification.png", "target": "~/images/"},
+                {"file": "dropout-layer.png", "target": "~/images/"},
+                {"file": "dropout.png", "target": "~/images/"},
+                {"file": "Dense.png", "target": "~/images/"},
+                {"file": "Dense-hidden.png", "target": "~/images/"},
+                {"file": "convolutional.png", "target": "~/images/"},
+                {"file": "convolutional2.png", "target": "~/images/"},
+                {"file": "convolution.png", "target": "~/images/"}]
     }
   },
   "environment": {
