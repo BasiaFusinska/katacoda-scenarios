@@ -5,6 +5,6 @@ The depth itself comes from forming layers of neurones. Deep architectures allow
 [TensorFlow](https://www.tensorflow.org/) offers few ways of building the ANN architectures. This tutorial will walk you though adding the layers process to the classification network.
 We will be working on the [MNIST dataset](http://yann.lecun.com/exdb/mnist/). The task is to recognise the actual digit from its handwritten representation.
 
-![MNIST Classification](assets/images/MNIST-classification.png)
+<img src="tensorflow/assets/MNIST-classification.png" alt="MNIST Classification">
 
 If you look at the `help.py`{{open}} code, you can see the `read_mnist` function that uses built-in capabilities of TensorFlow to download the dataset locally and load it into the python variable. As a result (if not specified otherwise), the data will be downloaded into the `MNIST_data/` folder.
