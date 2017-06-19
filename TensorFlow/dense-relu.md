@@ -2,7 +2,7 @@ Our first network isn't that impressive regarding the accuracy level. But becaus
 
 For this part of the scenario, we will add another *dense layer* to our network and place it between the *input* and *output* ones. This type is called a *hidden layer* and can be visualised like this:
 
-![Dense hidden layer](assets/images/Dense-hidden.png)
+<img src="tensorflow/assets/Dense-hidden.png" alt="Dense hidden layer">
 
 If you open the `DenseReLU.py`{{open}} file, you can see the minor changes when comparing with the previous architecture. First of all, there is another parameter `hidden_size` indicating the size (number of neurones) of the hidden layer. The definition itself takes the input data and connects to the output layer:
 
