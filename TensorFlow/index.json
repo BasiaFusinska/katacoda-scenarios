@@ -42,15 +42,15 @@
                 {"file": "Conv.py", "target": "~/"},
                 {"file": "2-Conv.py", "target": "~/"},
                 {"file": "ConvDropout.py", "target": "~/"},
-                {"file": "images/MNIST-flat.png", "target": "~/images/"},
-                {"file": "images/MNIST-classification.png", "target": "~/images/"},
-                {"file": "images/dropout-layer.png", "target": "~/images/"},
-                {"file": "images/dropout.png", "target": "~/images/"},
-                {"file": "images/Dense.png", "target": "~/images/"},
-                {"file": "images/Dense-hidden.png", "target": "~/images/"},
-                {"file": "images/convolutional.png", "target": "~/images/"},
-                {"file": "images/convolutional2.png", "target": "~/images/"},
-                {"file": "images/convolution.png", "target": "~/images/"}]
+                {"file": "MNIST-flat.png", "target": "~/"},
+                {"file": "MNIST-classification.png", "target": "~/"},
+                {"file": "dropout-layer.png", "target": "~/"},
+                {"file": "dropout.png", "target": "~/"},
+                {"file": "Dense.png", "target": "~/"},
+                {"file": "Dense-hidden.png", "target": "~/"},
+                {"file": "convolutional.png", "target": "~/"},
+                {"file": "convolutional2.png", "target": "~/"},
+                {"file": "convolution.png", "target": "~/"}]
     }
   },
   "environment": {
