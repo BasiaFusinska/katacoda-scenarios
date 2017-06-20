@@ -37,11 +37,11 @@
     },
     "assets": {
       "client": [{"file": "help.py", "target": "~/"},
-                {"file": "Dense.py", "target": "~/"},
-                {"file": "DenseReLU.py", "target": "~/"},
-                {"file": "Conv.py", "target": "~/"},
-                {"file": "2-Conv.py", "target": "~/"},
-                {"file": "ConvDropout.py", "target": "~/"}]
+                {"file": "dense.py", "target": "~/"},
+                {"file": "dense-relu.py", "target": "~/"},
+                {"file": "conv.py", "target": "~/"},
+                {"file": "2-conv.py", "target": "~/"},
+                {"file": "dropout.py", "target": "~/"}]
     }
   },
   "environment": {
