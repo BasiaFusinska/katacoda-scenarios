@@ -31,8 +31,8 @@ def train_test_model(mnist, x_input, y_labels, accuracy, train_step, steps=1000,
 
     print("The end of training!")
 
-    print("Test accuracy: %g"accuracy.eval(feed_dict={x_input: mnist.test.images, y_labels: mnist.test.images}))
-    print("Validation accuracy: %g"accuracy.eval(feed_dict={x_input: mnist.validation.images, y_labels: mnist.validation.images}))
+    print("Test accuracy: %g"%accuracy.eval(feed_dict={x_input: mnist.test.images, y_labels: mnist.test.labels}))
+    print("Validation accuracy: %g"%accuracy.eval(feed_dict={x_input: mnist.validation.images, y_labels: mnist.validation.labels}))
 
 def train_test_model_dropout(mnist, x_input, y_labels, accuracy, train_step, should_drop, steps=1000, batch=100):
     sess = tf.InteractiveSession()
@@ -50,5 +50,5 @@ def train_test_model_dropout(mnist, x_input, y_labels, accuracy, train_step, sho
 
     print("The end of training!")
 
-    print("Test accuracy: %g"accuracy.eval(feed_dict={x_input: mnist.test.images, y_labels: mnist.test.images, should_drop: False}))
-    print("Validation accuracy: %g"accuracy.eval(feed_dict={x_input: mnist.validation.images, y_labels: mnist.validation.imagesv, should_drop: False}))
+    print("Test accuracy: %g"%accuracy.eval(feed_dict={x_input: mnist.test.images, y_labels: mnist.test.labels, should_drop: False}))
+    print("Validation accuracy: %g"%accuracy.eval(feed_dict={x_input: mnist.validation.images, y_labels: mnist.validation.labels, should_drop: False}))
