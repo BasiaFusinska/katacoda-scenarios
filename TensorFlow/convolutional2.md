@@ -1,4 +1,4 @@
-Adding the convolution to the picture is starting to slow down the training process significantly. But to take advantage of it fully we should continue with another one. If you open the `2-Conv.py`{{open}} file, you can see the code.
+Adding the convolution to the picture is starting to slow down the training process significantly. But to take advantage of it fully we should continue with another one. If you open the `2-conv.py`{{open}} file, you can see the code.
 
 The network architecture looks like this now:
 
@@ -15,4 +15,4 @@ pool_flat = tf.reshape(pool2, [-1, 7 * 7 * 64])`
 
 To run the example use the following code:
 
-`python 2-Conv.py`{{execute}}
+`python 2-conv.py`{{execute}}

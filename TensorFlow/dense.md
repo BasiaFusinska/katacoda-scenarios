@@ -1,4 +1,4 @@
-Let's start simple and create the network with just one output layer. Open the `Dense.py`{{open}} file and look at the code.
+Let's start simple and create the network with just one output layer. Open the `dense.py`{{open}} file and look at the code.
 
 The process starts with importing libraries that are needed further, including `tensorflow`, `numpy` and `help` functions (from the `help.py` file). Then the dataset is loaded into the `mnist` variable. It stores training, test and validation data with the corresponding labels. This process flattens 2D files and keeps the data as 1-dimention arrays.
 
@@ -22,6 +22,6 @@ Tensorflow allows you to formulate all the calculations or just use the build-in
 
 Once we've built the network we need to specify the training process, during which all the parameters will be set to the proper values. It has been done for you in the `build_training` helper function. The last line runs the whole process and displays the results of the performance on the test data. This where the `train_test_model` function is applied.
 
-To see the whole process and train your first neural network run the `Dense.py` file:
+To see the whole process and train your first neural network run the `dense.py` file:
 
-`python Dense.py`{{execute}}
+`python dense.py`{{execute}}

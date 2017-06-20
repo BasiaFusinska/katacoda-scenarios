@@ -8,7 +8,7 @@ There is another technique that could improve how well the trained network perfo
 
 <img src="tensorflow/assets/dropout-layer.png" alt="Network with dropout">
 
-When you open the `ConvDropout.py`{{open}} file, you can see that few changes have been done to the code. First of all, we need a placeholder to be used in both training and testing phases to hold the probability of dropout.
+When you open the `dropout.py`{{open}} file, you can see that few changes have been done to the code. First of all, we need a placeholder to be used in both training and testing phases to hold the probability of dropout.
 
 `should_drop = tf.placeholder(tf.bool)`
 
@@ -25,4 +25,4 @@ Because we added another parameter, we need to pass it through in the training a
 
 Run the code with the dropout using the following command:
 
-`python ConvDropout.py`{{execute}}
+`python dropout.py`{{execute}}

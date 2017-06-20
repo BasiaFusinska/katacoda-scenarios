@@ -6,7 +6,7 @@ The parameters of the [convolutional layer](https://en.wikipedia.org/wiki/Convol
 
 <img src="tensorflow/assets/convolutional.png" alt="Convolutional network">
 
-Using convolutional techniques allow us to take advantage of the 2D representation of the input data. We'd lost it when flattened the digits pictures and feeding the data into the dense layer. To go back to the original structure we can use `reshape` function. The code can be found in the `Conv.py`{{open}} file.
+Using convolutional techniques allow us to take advantage of the 2D representation of the input data. We'd lost it when flattened the digits pictures and feeding the data into the dense layer. To go back to the original structure we can use `reshape` function. The code can be found in the `conv.py`{{open}} file.
 
 `x_image = tf.reshape(x_input, [-1,image_size,image_size,1])`
 
@@ -21,4 +21,4 @@ pool_flat = tf.reshape(pool, [-1, 14 * 14 * 32])`
 
 To run the example use the following command:
 
-`python Conv.py`{{execute}}
+`python conv.py`{{execute}}
