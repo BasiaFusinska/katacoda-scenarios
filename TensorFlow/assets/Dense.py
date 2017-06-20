@@ -1,6 +1,5 @@
 import help
 import tensorflow as tf
-import numpy as np
 
 # Read mnist data
 mnist = help.read_mnist()

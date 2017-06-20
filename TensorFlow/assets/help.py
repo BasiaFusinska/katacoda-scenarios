@@ -1,5 +1,4 @@
 import tensorflow as tf
-import numpy as np
 
 from tensorflow.examples.tutorials.mnist import input_data
 
@@ -32,18 +31,8 @@ def train_test_model(mnist, x_input, y_labels, accuracy, train_step, steps=1000,
 
     print("The end of training!")
 
-    print("Test accuracy: %g"%partial_accuracy(mnist.test, accuracy, x_input, y_labels))
-    print("Validation accuracy: %g"%partial_accuracy(mnist.validation, accuracy, x_input, y_labels))
-
-def partial_accuracy(data, accuracy, x_input, y_labels):
-    final_accuracy = 0
-    set_len = len(data.images)
-    for i in range(100):
-        start = set_len/100 * i
-        end = set_len/100 * (i+1)
-        feed_dict={x_input: data.images[start:end], y_labels: data.labels[start:end]}
-        final_accuracy += accuracy.eval(feed_dict=feed_dict)
-    return np.float32(final_accuracy)/100
+    print("Test accuracy: %g"accuracy.eval(feed_dict={x_input: mnist.test.images, y_labels: mnist.test.images}))
+    print("Validation accuracy: %g"accuracy.eval(feed_dict={x_input: mnist.validation.images, y_labels: mnist.validation.images}))
 
 def train_test_model_dropout(mnist, x_input, y_labels, accuracy, train_step, should_drop, steps=1000, batch=100):
     sess = tf.InteractiveSession()
@@ -61,15 +50,5 @@ def train_test_model_dropout(mnist, x_input, y_labels, accuracy, train_step, sho
 
     print("The end of training!")
 
-    print("Test accuracy: %g"%partial_accuracy_dropout(mnist.test, accuracy, x_input, y_labels, should_drop))
-    print("Validation accuracy: %g"%partial_accuracy_dropout(mnist.validation, accuracy, x_input, y_labels, should_drop))
-
-def partial_accuracy_dropout(data, accuracy, x_input, y_labels, should_drop):
-    final_accuracy = 0
-    set_len = len(data.images)
-    for i in range(100):
-        start = set_len/100 * i
-        end = set_len/100 * (i+1)
-        feed_dict={x_input: data.images[start:end], y_labels: data.labels[start:end], should_drop: False}
-        final_accuracy += accuracy.eval(feed_dict=feed_dict)
-    return np.float32(final_accuracy)/100
+    print("Test accuracy: %g"accuracy.eval(feed_dict={x_input: mnist.test.images, y_labels: mnist.test.images, should_drop: False}))
+    print("Validation accuracy: %g"accuracy.eval(feed_dict={x_input: mnist.validation.images, y_labels: mnist.validation.imagesv, should_drop: False}))
