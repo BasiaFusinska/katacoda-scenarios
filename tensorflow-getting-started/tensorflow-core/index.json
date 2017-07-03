@@ -1,0 +1,46 @@
+{
+  "title": "Tensorflow Core",
+  "description": "Scenario for TensorFlow Core.",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+      "title": "Importing TensorFlow",
+      "text": "import.md"
+      },
+      {
+        "title": "Computational Graph",
+        "text": "graph.md"
+      },
+      {
+        "title": "Session",
+        "text": "session.md"
+      },
+      {
+        "title": "Placeholder",
+        "text": "placeholder.md"
+      },
+      {
+        "title": "Variable",
+        "text": "variable.md"
+      },
+      {
+        "title": "Assign",
+        "text": "assign.md"
+      }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "TensorFlow Getting Started",
+  "description": "Learn basics of TensorFlow",
+  "courses": [
+    {
+      "course_id": "tensorflow-core",
+      "title": "Tensorflow Core",
+      "description": "Introduction to TensorFlow Core"
+    }
+  ]
+}
