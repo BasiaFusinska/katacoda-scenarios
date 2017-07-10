@@ -1,4 +1,5 @@
 If you want to work with the parameters that can change their values when running the computational graph, you should consider using *variables*. In machine learning training process, the goal is to adjust some coefficients to best fit the optimised function.
+
 Let's consider simple linear model and discover how you can manually change the values of variables. We'll provide x and y values of the data points in the placeholders:
 
 `x = tf.placeholder(tf.float32)
@@ -18,7 +19,7 @@ Tu run the computational graph you need to first initialize the variables. Their
 `init = tf.global_variables_initializer()
 sess.run(init)`{{execute}}
 
-Now the model is ready to be evaluated. Note that because linear model is not taking into account y values, so there is no need to provide then in the `feed_dict` parameter.
+Now the model is ready to be evaluated. Note that because linear model is not taking into account y values, there is no need to provide then in the `feed_dict` parameter.
 
 `print(sess.run(linear_model, {x:[0,1,2,3,4,5]}))`{{execute}}
 
