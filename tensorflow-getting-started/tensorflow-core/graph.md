@@ -2,7 +2,7 @@ TensorFlow uses something called deferred execution. This means first you are bu
 
 The graph works on the tensors as input and output. Some of the nodes in the graph don't take any inputs, because they are inputs themselves. Let's build a simple example adding two numbers: 2 and 5. The graph would look like this (obtained by with TensorBoard):
 
-<img src="tensorflow-getting-started/tensorflow-core/assets/add-graph.png" alt="Adding Graph">
+<img src="basiafusinska/courses/tensorflow-getting-started/tensorflow-core/assets/add-graph.png" alt="Adding Graph">
 
 The values of the numbers are stored in the *placeholders*. The implicit type is float, but you can specify it using `dtype` argument:
 
