@@ -6,8 +6,8 @@ y = tf.placeholder(tf.float32)`{{execute}}
 
 The linear model has a form of **f(x) = a*x + b**. The **a** and **b** are the parameters. We'll use variables to define them and assign some default values.
 
-`a = tf.Variable([.5], dtype=tf.float32)
-b = tf.Variable([-1], dtype=tf.float32)`{{execute}}
+`a = tf.Variable([1], dtype=tf.float32)
+b = tf.Variable([-2], dtype=tf.float32)`{{execute}}
 
 The linear model can them be defined as:
 
