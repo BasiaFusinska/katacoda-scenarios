@@ -1,6 +1,6 @@
 {
-  "title": "Tensorflow Core",
-  "description": "Scenario for TensorFlow Core.",
+  "title": "TensorFlow Core",
+  "description": "Scenario for TensorFlow Core",
   "difficulty": "beginner",
   "time": "10 minutes",
   "details": {
