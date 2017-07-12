@@ -1,6 +1,6 @@
 To adjust the values of the variables we need to specify the expected results for our linear model. Working only with one dimension we could visualise the model:
 
-<img src="basiafusinska/courses/tensorflow-getting-started/tensorflow-core/assets/lin-model.png" alt="Linear model">
+<img src="/basiafusinska/courses/tensorflow-getting-started/tensorflow-core/assets/lin-model.png" alt="Linear model">
 
 The data points have coordinates as values provided in the `x` and `y` placeholders and the lines' `a` and `b` parameters provide the slope and intercept. This means that adjusting the variables will give us the proper match of the line to the actual data points.
 
