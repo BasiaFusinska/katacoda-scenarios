@@ -2,6 +2,7 @@
   "title": "TensorFlow Training API",
   "description": "Walkthrough the TensorFlow training process",
   "difficulty": "beginner",
+  "live": false,
   "time": "10 minutes",
   "details": {
     "steps": [{
