@@ -17,7 +17,6 @@ for i in range(steps_number):
 
   # Run the training step
   train_step.run(feed_dict=feed_dict)
-
 </pre>
 
 We can make use of the `accuracy` defined previously to monitor the performance on the batches during the training process. By adding the following code, we will print out the value every 100 steps.
@@ -27,5 +26,4 @@ We can make use of the `accuracy` defined previously to monitor the performance 
   if i%100 == 0:
     train_accuracy = accuracy.eval(feed_dict=feed_dict)
     print("Step %d, training batch accuracy %g %%"%(i, train_accuracy*100))
-
 </pre>

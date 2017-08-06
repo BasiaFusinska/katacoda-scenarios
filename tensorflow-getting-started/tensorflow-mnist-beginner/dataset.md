@@ -6,7 +6,7 @@ TensorFlow has the dataset already built in, so there is no need to manually dow
 
 To start working with MNIST let us include some necessary imports:
 
-<pre class="file" data-filename="app.py" data-target="append">
+<pre class="file" data-filename="app.py" data-target="replace">
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 

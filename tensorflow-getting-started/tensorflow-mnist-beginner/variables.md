@@ -9,5 +9,4 @@ b = tf.Variable(tf.constant(0.1, shape=[labels_size]))
 
 # Build the network (only output layer)
 output = tf.matmul(training_data, W) + b
-
 </pre>

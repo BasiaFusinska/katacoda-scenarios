@@ -4,7 +4,6 @@ After the training is finished we would like to check the network performance on
 # Evaluate on the test set
 test_accuracy = accuracy.eval(feed_dict={training_data: mnist.test.images, labels: mnist.test.labels})
 print("Test accuracy: %g %%"%(test_accuracy*100))
-
 </pre>
 
 The file is ready now, and we can run it using the following command:

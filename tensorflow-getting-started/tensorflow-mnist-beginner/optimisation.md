@@ -8,7 +8,6 @@ loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=labels, log
 
 # Training step
 train_step = tf.train.GradientDescentOptimizer(learning_rate).minimize(loss)
-
 </pre>
 
 Gradient descent optimiser will work in several steps adjusting the values of the W and b variables. We would also like to have a way of evaluating the performance.
@@ -19,5 +18,4 @@ First, we want to compare which labels were predicted correctly by using `tf.arg
 # Accuracy calculation
 correct_prediction = tf.equal(tf.argmax(output, 1), tf.argmax(labels, 1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
-
 </pre>
