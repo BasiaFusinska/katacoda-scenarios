@@ -6,6 +6,11 @@
       "course_id": "tensorflow-core",
       "title": "Tensorflow Core",
       "description": "Introduction to TensorFlow Core"
+    },
+    {
+      "course_id": "tensorflow-mnist-beginner",
+      "title": "TensorFlow MNIST for beginners",
+      "description": "Walkthrough the TensorFlow training process based on MNIST dataset",
     }
   ]
 }
