@@ -1,0 +1,16 @@
+{
+  "title": "TensorFlow in three sentences",
+  "description": "Three sentences introduction to TensorFlow",
+  "courses": [
+    {
+      "course_id": "tensorflow-core",
+      "title": "Computational Graph: Core",
+      "description": "Introduction to TensorFlow Core"
+    },
+    {
+      "course_id": "tensorflow-mnist-beginner",
+      "title": "Computational Graph: Neural Network Training",
+      "description": "Walkthrough the TensorFlow training process for MNIST dataset"
+    }
+  ]
+}
