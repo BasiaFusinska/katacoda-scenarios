@@ -10,7 +10,17 @@ To start working with MNIST let us include some necessary imports:
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
+# Read data
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 </pre>
 
 The code uses built-in capabilities of TensorFlow to download the dataset locally and load it into the python variable. As a result (if not specified otherwise), the data will be downloaded into the `MNIST_data/` folder.
+
+We are also defining some of the values that will be use further in the code:
+<pre class="file" data-filename="app.py" data-target="append">
+image_size = 28
+labels_size = 10
+learning_rate = 0.05
+steps_number = 1000
+batch_size = 100
+</pre>
