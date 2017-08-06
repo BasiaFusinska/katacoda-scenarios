@@ -10,7 +10,7 @@
     {
       "course_id": "tensorflow-mnist-beginner",
       "title": "TensorFlow MNIST for beginners",
-      "description": "Walkthrough the TensorFlow training process based on MNIST dataset",
+      "description": "Walkthrough the TensorFlow training process based on MNIST dataset"
     }
   ]
 }
