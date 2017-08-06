@@ -1,0 +1,46 @@
+{
+  "title": "TensorFlow Training API",
+  "description": "Walkthrough the TensorFlow training process",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+      "title": "Loading MNIST dataset",
+      "text": "dataset.md"
+      },
+      {
+        "title": "Training data",
+        "text": "train-data.md"
+      },
+      {
+        "title": "Network variables",
+        "text": "variables.md"
+      },
+      {
+        "title": "Loss function optimisation",
+        "text": "optimisation.md"
+      },
+      {
+        "title": "Training",
+        "text": "training.md"
+      },
+      {
+        "title": "Model evaluation",
+        "text": "evaluation.md"
+      }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}
