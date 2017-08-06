@@ -6,8 +6,8 @@ def get_layers(image_size, labels_size):
     labels = tf.placeholder(tf.float32, [None, labels_size])
 
     # Variables to be tuned
-    W = tf.Variable(tf.zeros([image_size*image_size, labels_size]))
-    b = tf.Variable(tf.zeros([labels_size]))
+    W = tf.Variable(tf.truncated_normal([image_size*image_size, labels_size], stddev=0.1))
+    b = tf.Variable(tf.constant(0.1, shape=[labels_size]))
 
     # Build the network (only output layer)
     output = tf.matmul(training_data, W) + b
