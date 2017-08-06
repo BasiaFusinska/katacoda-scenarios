@@ -1,6 +1,6 @@
 {
-  "title": "TensorFlow Training API",
-  "description": "Walkthrough the TensorFlow training process",
+  "title": "TensorFlow: MNIST for beginners",
+  "description": "Walkthrough the TensorFlow training process for the MNIST dataset",
   "difficulty": "beginner",
   "time": "10 minutes",
   "details": {
