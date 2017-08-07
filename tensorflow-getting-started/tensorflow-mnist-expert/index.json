@@ -1,6 +1,6 @@
 {
-  "title": "TensorFlow: MNIST for beginners",
-  "description": "Walkthrough the TensorFlow training process for the MNIST dataset",
+  "title": "TensorFlow: MNIST for experts",
+  "description": "Walkthrough the creation of the deep neural network using TensorFlow for MNIST dataset",
   "difficulty": "beginner",
   "time": "10 minutes",
   "details": {
