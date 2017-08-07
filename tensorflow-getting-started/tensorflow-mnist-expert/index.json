@@ -9,12 +9,12 @@
         "text": "training.md"
       },
       {
-        "title": "Convolutional layer",
-        "text": "convolutional.md"
-      },
-      {
         "title": "Hidden layer",
         "text": "hidden.md"
+      },
+      {
+        "title": "Convolutional layer",
+        "text": "convolutional.md"
       },
       {
         "title": "Dropout",
