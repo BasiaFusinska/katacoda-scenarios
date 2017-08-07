@@ -19,9 +19,9 @@ TensorFlow provides the `tf.nn.relu` function that will be applied after perform
 As a finishing touch, we connect hidden layer with the output one and return required objects. Notice that we changed the dimension for the weights variable to fit the hidden layer instead of the input one.
 
 `W = tf.Variable(tf.truncated_normal([hidden_size, labels_size], stddev=0.1))
-b = tf.Variable(tf.constant(0.1, shape=[labels_size]))
+b = tf.Variable(tf.constant(0.1, shape=[labels_size]))`
 
-output = tf.matmul(hidden, W) + b`
+`output = tf.matmul(hidden, W) + b`
 
 You can run the whole thing using the following command:
 

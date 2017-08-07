@@ -11,17 +11,17 @@ labels = tf.placeholder(tf.float32, [None, labels_size])`
 Next step is to set up the variables for the first convolutional layer. Then we initiate the convolutional and max polling phases. As you can see we use the variety of tf.nn functions like `relu`, `conv2d` or `max_pool`. This layer reads the reshaped images directly from the input data.
 
 `W_conv1 = tf.Variable(tf.truncated_normal([5, 5, 1, 32], stddev=0.1))
-b_conv1 = tf.Variable(tf.constant(0.1, shape=[32]))
+b_conv1 = tf.Variable(tf.constant(0.1, shape=[32]))`
 
-conv1 = tf.nn.relu(tf.nn.conv2d(training_images, W_conv1, strides=[1, 1, 1, 1], padding='SAME') + b_conv1)
+`conv1 = tf.nn.relu(tf.nn.conv2d(training_images, W_conv1, strides=[1, 1, 1, 1], padding='SAME') + b_conv1)
 pool1 = tf.nn.max_pool(conv1, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')`
 
 The second layer is analogical and has been defined below. Notice that as in input it takes the result of the max polling from the previous step.
 
 `W_conv2 = tf.Variable(tf.truncated_normal([5, 5, 32, 64], stddev=0.1))
-b_conv2 = tf.Variable(tf.constant(0.1, shape=[64]))
+b_conv2 = tf.Variable(tf.constant(0.1, shape=[64]))`
 
-conv2 = tf.nn.relu(tf.nn.conv2d(pool1, W_conv2, strides=[1, 1, 1, 1], padding='SAME') + b_conv2)
+`conv2 = tf.nn.relu(tf.nn.conv2d(pool1, W_conv2, strides=[1, 1, 1, 1], padding='SAME') + b_conv2)
 pool2 = tf.nn.max_pool(conv2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')`
 
 The last thing left is to connect it to the next layer which is a dense hidden one. Dense layers don't work with the dimensions of the convolution, so we need to flatten the result from the convolution phase.
