@@ -13,6 +13,12 @@
       "pathway_id": "tensorflow-getting-started",
       "title": "Computational Graph: Neural Network Training",
       "description": "Walkthrough the TensorFlow training process for MNIST dataset"
+    },
+    {
+      "course_id": "tensorflow-mnist-expert",
+      "pathway_id": "tensorflow-getting-started",
+      "title": "APIs: Hidden layers with tf.nn",
+      "description": "Walkthrough the deep network creation for MNIST dataset"
     }
   ]
 }
