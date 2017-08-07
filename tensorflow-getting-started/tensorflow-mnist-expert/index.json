@@ -1,0 +1,44 @@
+{
+  "title": "TensorFlow: MNIST for beginners",
+  "description": "Walkthrough the TensorFlow training process for the MNIST dataset",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+        "title": "Training process",
+        "text": "training.md"
+      },
+      {
+        "title": "Convolutional layer",
+        "text": "convolutional.md"
+      },
+      {
+        "title": "Hidden layer",
+        "text": "hidden.md"
+      },
+      {
+        "title": "Dropout",
+        "text": "dropout.md"
+      }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "training.py", "target": "~/"},
+                 {"file": "dense.py", "target": "~/"},
+                 {"file": "hidden.py", "target": "~/"},
+                 {"file": "convolutional.py", "target": "~/"}]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}
