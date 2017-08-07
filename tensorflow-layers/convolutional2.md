@@ -2,7 +2,7 @@ Adding the convolution to the picture is starting to slow down the training proc
 
 The network architecture looks like this now:
 
-<img src="tensorflow/assets/convolutional2.png" alt="Two convolutional layers network">
+<img src="tensorflow-layers/assets/convolutional2.png" alt="Two convolutional layers network">
 
 We again are using the 2D input and flatten the output of the second layer. But the first one doesn't need it now, as the convolution works with higher dimensions.
 

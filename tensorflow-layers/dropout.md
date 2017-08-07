@@ -2,11 +2,11 @@ At the moment you need be quite patient when running the code. The complexity of
 
 There is another technique that could improve how well the trained network performs. It's called *dropout* and is applied to the hidden dense layer.
 
-<img src="tensorflow/assets/dropout.png" alt="Dropout">
+<img src="tensorflow-layers/assets/dropout.png" alt="Dropout">
 
 [Dropout](https://en.wikipedia.org/wiki/Convolutional_neural_network#Dropout) works in a way that individual nodes are either "shut down" or kept with some explicit probability. It is used in the training phase, so remember you need to turn it off when evaluating your network. TensorFlow is allowing you to use the dropout function to implement it.
 
-<img src="tensorflow/assets/dropout-layer.png" alt="Network with dropout">
+<img src="tensorflow-layers/assets/dropout-layer.png" alt="Network with dropout">
 
 When you open the `dropout.py`{{open}} file, you can see that few changes have been done to the code. First of all, we need a placeholder to be used in both training and testing phases to hold the probability of dropout.
 
