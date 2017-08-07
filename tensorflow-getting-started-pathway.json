@@ -11,6 +11,11 @@
       "course_id": "tensorflow-mnist-beginner",
       "title": "TensorFlow MNIST for beginners",
       "description": "Walkthrough the TensorFlow training process based on MNIST dataset"
+    },
+    {
+      "course_id": "tensorflow-mnist-expert",
+      "title": "TensorFlow MNIST for experts",
+      "description": "Walkthrough the deep neural network using TensorFlow for MNIST dataset"
     }
   ]
 }
