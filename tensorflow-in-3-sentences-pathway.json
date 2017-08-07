@@ -21,8 +21,7 @@
       "description": "Walkthrough the deep network creation for MNIST dataset"
     },
     {
-      "course_id": "tensorflow-layers",
-      "pathway_id": "",
+      "link": "/basiafusinska/scenarios/tensorflow-layers",
       "title": "APIs: Hidden layers with tf.layers",
       "description": "Walkthrough the deep network creation for MNIST dataset"
     }
