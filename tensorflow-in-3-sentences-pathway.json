@@ -19,6 +19,12 @@
       "pathway_id": "tensorflow-getting-started",
       "title": "APIs: Hidden layers with tf.nn",
       "description": "Walkthrough the deep network creation for MNIST dataset"
+    },
+    {
+      "course_id": "tensorflow-layers",
+      "pathway_id": "",
+      "title": "APIs: Hidden layers with tf.layers",
+      "description": "Walkthrough the deep network creation for MNIST dataset"
     }
   ]
 }
