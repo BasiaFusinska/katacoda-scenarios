@@ -16,6 +16,11 @@
       "course_id": "tensorflow-mnist-expert",
       "title": "TensorFlow MNIST for experts",
       "description": "Walkthrough the deep neural network using TensorFlow for MNIST dataset"
+    },
+    {
+      "course_id": "tensorflow-mnist-estimators",
+      "title": "TensorFlow Estimators for MNIST dataset",
+      "description": "Using TensorFlow Estimators for MNIST dataset classification task"
     }
   ]
 }
