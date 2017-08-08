@@ -17,7 +17,7 @@
     {
       "course_id": "tensorflow-mnist-estimators",
       "pathway_id": "tensorflow-getting-started",
-      "title": "TensorFlow Estimators for MNIST dataset",
+      "title": "APIs: Estimators",
       "description": "Using TensorFlow Estimators for MNIST dataset classification task"
     },
     {
