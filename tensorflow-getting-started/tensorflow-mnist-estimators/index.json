@@ -1,0 +1,41 @@
+{
+  "title": "TensorFlow Estimators for MNIST dataset",
+  "description": "Using TensorFlow Estimators for MNIST dataset classification task",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+        "title": "Estimators",
+        "text": "estimators.md"
+      },
+      {
+        "title": "Dataset",
+        "text": "dataset.md"
+      },
+      {
+        "title": "Model",
+        "text": "model.md"
+      },
+      {
+        "title": "Making predictions",
+        "text": "predict.md"
+      }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "estimators.py", "target": "~/"}]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}
