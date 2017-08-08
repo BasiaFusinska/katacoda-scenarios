@@ -10,7 +10,7 @@ Classifier created in the previous step can now be used to fit the values of the
 `features, labels = input_fn(mnist.train)
 classifier.fit(x=features, y=labels, batch_size=100, steps=1000)`
 
-Depending on the complexity of the model, training will take some time. After it's finished you can use the model to check the accuracy against the test set.
+Depending on the complexity of the model, training will take some time. After it's finished you can use the model to check the accuracy against the test set. To do this we can use `evaluate` function.
 
 `features, labels = input_fn(mnist.test)
 test_accuracy = classifier.evaluate(x=features, y=labels, steps=1)["accuracy"]
