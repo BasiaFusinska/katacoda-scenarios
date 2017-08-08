@@ -15,6 +15,12 @@
       "description": "Walkthrough the TensorFlow training process for MNIST dataset"
     },
     {
+      "course_id": "tensorflow-mnist-estimators",
+      "pathway_id": "tensorflow-getting-started",
+      "title": "TensorFlow Estimators for MNIST dataset",
+      "description": "Using TensorFlow Estimators for MNIST dataset classification task"
+    },
+    {
       "course_id": "tensorflow-mnist-expert",
       "pathway_id": "tensorflow-getting-started",
       "title": "APIs: Hidden layers with tf.nn",
