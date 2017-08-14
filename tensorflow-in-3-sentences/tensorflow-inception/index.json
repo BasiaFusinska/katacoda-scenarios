@@ -11,6 +11,10 @@
       {
         "title": "Serving the Inception",
         "text": "server.md"
+      },
+      {
+        "title": "Connecting to the server",
+        "text": "client.md"
       }],
     "intro": {
       "text": "intro.md",
