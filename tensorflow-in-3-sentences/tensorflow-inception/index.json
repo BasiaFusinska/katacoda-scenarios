@@ -5,8 +5,8 @@
   "time": "10 minutes",
   "details": {
     "steps": [{
-      "title": "Importing TensorFlow",
-      "text": "import.md"
+      "title": "Introduction to Inception",
+      "text": "inception.md"
       }],
     "intro": {
       "text": "intro.md",
