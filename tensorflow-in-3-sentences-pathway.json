@@ -30,6 +30,11 @@
       "link": "/basiafusinska/scenarios/tensorflow-layers",
       "title": "APIs: Hidden layers with tf.layers",
       "description": "Walkthrough the deep network creation for MNIST dataset"
+    },
+    {
+      "course_id": "tensorflow-inception",
+      "title": "Communities: Inception & Docker",
+      "description": "Scenario for using TensorFlow Inception from docker image"
     }
   ]
 }
