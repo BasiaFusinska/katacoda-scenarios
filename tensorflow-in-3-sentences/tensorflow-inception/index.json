@@ -15,6 +15,10 @@
       {
         "title": "Connecting to the server",
         "text": "client.md"
+      },
+      {
+        "title": "Downloading the images",
+        "text": "images.md"
       }],
     "intro": {
       "text": "intro.md",
