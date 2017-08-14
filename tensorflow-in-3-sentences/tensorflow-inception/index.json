@@ -19,6 +19,10 @@
       {
         "title": "Downloading the images",
         "text": "images.md"
+      },
+      {
+        "title": "Classifying new examples",
+        "text": "query.md"
       }],
     "intro": {
       "text": "intro.md",
