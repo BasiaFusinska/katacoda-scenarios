@@ -1,0 +1,26 @@
+{
+  "title": "TensorFlow Inception",
+  "description": "Scenario for using TensorFlow Inception from docker image",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+      "title": "Importing TensorFlow",
+      "text": "import.md"
+      }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow-docker"
+  }
+}
