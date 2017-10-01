@@ -1,0 +1,11 @@
+{
+  "title": "Deep Learning with TensorFlow",
+  "description": "Learn how to use Python and TensorFlow with Deep Learning tasks",
+  "courses": [
+    {
+      "course_id": "classification-task",
+      "title": "Classification task",
+      "description": "Introduction to Machine Learning CLassification problem"
+    }
+  ]
+}

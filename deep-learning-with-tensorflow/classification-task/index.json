@@ -1,0 +1,42 @@
+{
+  "title": "Classification task",
+  "description": "Introduction to Machine Learning Classification problem",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [{
+      "title": "Classification problem",
+      "text": "classification.md"
+      },
+      {
+        "title": "Logistic Regression",
+        "text": "logregression.md"
+      },
+      {
+        "title": "Train/Test dataset split",
+        "text": "split.md"
+      },
+      {
+        "title": "Machine Learning Training",
+        "text": "training.md"
+      },
+      {
+        "title": "Algorithm evaluation",
+        "text": "evaluation.md"
+      }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}
