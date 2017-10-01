@@ -12,7 +12,6 @@ You're going to write the code in the `classification.py`{{open}} file. It alrea
 # Read the data
 data = h.read_data()
 print data
-
 </pre>
 
 You can always run the code written so far using the following command:

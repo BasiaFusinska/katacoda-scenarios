@@ -5,8 +5,7 @@ In case of Linear Regression that we'll use it means it will take some _loss fun
 <pre class="file" data-filename="classification.py" data-target="append">
 # Create and train the model
 model = sklearn.linear_model.LogisticRegressionCV();
-model.fit(train[['x', 'y']], train['labels']);
-
+model.fit(train[['x', 'y']], train['label']);
 </pre>
 
 Once the algorithm is done, we get the ready to use, _trained model_. Later it can be applied to predict new examples' colours.

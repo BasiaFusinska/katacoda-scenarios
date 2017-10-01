@@ -6,20 +6,18 @@ Let's first use the model to predict the values for both training and testing se
 
 <pre class="file" data-filename="classification.py" data-target="append">
 # Predict the values using trained model
-predictions_train = clf.predict(train[['x', 'y']])
-predictions_test = clf.predict(test[['x', 'y']])
-
+predictions_train = model.predict(train[['x', 'y']])
+predictions_test = model.predict(test[['x', 'y']])
 </pre>
 
 Next we'll calculate the accuracy of the model:
 <pre class="file" data-filename="classification.py" data-target="append">
 # Accuracy calculations
-accuracy_train = accuracy_score(train['label'], predictions_train)
-accuracy_test = accuracy_score(test['label'], predictions_test)
+accuracy_train = accuracy_score(train['label'], predictions_train) * 100
+accuracy_test = accuracy_score(test['label'], predictions_test) * 100
 
-print 'Train accuracy: %d' % accuracy_train
-print 'Test accuracy: %d' % accuracy_test
-
+print 'Train accuracy: %d %%' % accuracy_train
+print 'Test accuracy: %d %%' % accuracy_test
 </pre>
 
 Run the script using the following command:

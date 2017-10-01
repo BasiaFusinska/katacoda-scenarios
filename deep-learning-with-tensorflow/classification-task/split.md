@@ -7,5 +7,4 @@ Depending on the dataset we could think of different train-test split ratios. In
 <pre class="file" data-filename="classification.py" data-target="append">
 # Split the data into train and test
 train, test = train_test_split(data, test_size=0.3)
-
 </pre>
