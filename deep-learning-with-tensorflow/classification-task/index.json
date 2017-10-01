@@ -30,6 +30,10 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "helpers.py", "target": "~/"},
+                 {"file": "classification.py", "target": "~/"}]
     }
   },
   "environment": {
