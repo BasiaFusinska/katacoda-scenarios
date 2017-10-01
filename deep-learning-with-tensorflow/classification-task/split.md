@@ -2,4 +2,10 @@ Before we start the training phase, we are going to prepare the data. Usually, d
 
 Our example is prepared especially for the scenario purposes, so the only thing we need to do is to split the data into the training and testing sets. The reason to do it is to check later how does the model perform on the data it didn't see in the training phase. Checking only the training data accuracy could be misleading, as the algorithms could have just memorised the records ([overfitting](https://en.wikipedia.org/wiki/Overfitting)) instead of generalising the rule.
 
-Depending on the dataset we could think of different train-test split ratios. In our example, we'll just try 30%-70%.
+Depending on the dataset we could think of different train-test split ratios. In our example, we'll just try 30%-70%:
+
+<pre class="file" data-filename="classification.py" data-target="append">
+# Split the data into train and test
+train, test = train_test_split(data, test_size=0.3)
+
+</pre>

@@ -33,7 +33,8 @@
     },
     "assets": {
       "client": [{"file": "helpers.py", "target": "~/"},
-                 {"file": "classification.py", "target": "~/"}]
+                 {"file": "classification.py", "target": "~/"},
+                 {"file": "classification_data.csv", "target": "~/"}]
     }
   },
   "environment": {
