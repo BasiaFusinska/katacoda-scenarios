@@ -1,4 +1,3 @@
-
 The first step when applying forward propagation is to _aggregate the multiplication results of the input data and weights_. Then the _bias_ is added.
 
 ##Task 2

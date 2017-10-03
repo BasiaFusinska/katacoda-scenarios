@@ -1,6 +1,6 @@
 Our goal is to build the simple neural network. It will only have _input and output layer_. The number of neurons in this case, is determined by the classification problem. The input layer has the same size as the feature dimensionality (two in our case). Because we're dealing with the binary classification, there is only one neuron in the output layer.
 
-You can see how the architecture looks like in the image below.
+You can see how the architecture looks like in the image below and is called [Feedforward neural network](https://en.wikipedia.org/wiki/Feedforward_neural_network).
 
 <img src="/basiafusinska/courses/deep-learning-with-tensorflow/forward-propagation/assets/network.png" alt="Network architecture">
 
