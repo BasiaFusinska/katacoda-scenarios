@@ -6,4 +6,4 @@ The following picture is visualising the data. Similarly as in the previous scen
 
 The code you'll be working with is in the `classification.py`{{open}} file. We have also provided some helper functions which are available in the `helper.py`.
 
-The first thing you need to do is to read the data. Use read_data or read_and_visualise_data and load them into data DataFrame. We're using pandas in our code, so you may find it useful to learn how does the indexing work.
+The first thing you need to do is to read the data. Use read_data or read_and_visualise_data and load them into data DataFrame. We're using [pandas](https://pandas.pydata.org/pandas-docs/stable/indexing.html) in our code, so you may find it useful to learn how does the indexing work.
