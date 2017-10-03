@@ -6,8 +6,8 @@ Let's first use the model to predict the values for both training and testing se
 
 <pre class="file" data-filename="classification.py" data-target="append">
 # Predict the values using trained model
-predictions_train = model.predict(train[['x', 'y']])
-predictions_test = model.predict(test[['x', 'y']])
+predictions_train = model.predict(train[['x1', 'x2']])
+predictions_test = model.predict(test[['x1', 'x2']])
 </pre>
 
 Next we'll calculate the accuracy of the model:
@@ -18,6 +18,12 @@ accuracy_test = accuracy_score(test['label'], predictions_test) * 100
 
 print 'Train accuracy: %d %%' % accuracy_train
 print 'Test accuracy: %d %%' % accuracy_test
+</pre>
+
+If you want to see the decision boundary, plot another graph. You can see it later in the decision_boundary.png file.
+<pre class="file" data-filename="classification.py" data-target="append">
+# Plot decision boundary
+h.plot_decision_boundary(lambda x: model.predict(x), data[['x1', 'x2']].values, data['label'])
 </pre>
 
 Run the script using the following command:

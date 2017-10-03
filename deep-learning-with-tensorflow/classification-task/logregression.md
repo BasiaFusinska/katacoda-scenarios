@@ -2,15 +2,17 @@ We can use several algorithms can in the binary classification task. Most popula
 
 You can go into the details for this particular method, but the basic idea is based on the fact that our data are _linearly separable_ regarding labels. This means that you can draw the line between the dots of the different colours.
 
+<img src="/basiafusinska/courses/deep-learning-with-tensorflow/classification-task/assets/logistic_regression.png" alt="Logistic regression">
+
 We're in the lucky position that this line can be drawn in many ways, and still be separating the dots. The algorithm adjusts the coefficients during the training phase so that the distances from the dots to the line are minimised.
 
 The data is stored in the classification_data.csv file. The first thing we're going to do is to read and visualise the data. Some helper functions have already been written for you. They can be found in the helpers.py file.
 
-You're going to write the code in the `classification.py`{{open}} file. It already contains needed packages imports. All you need to do is to use the helper read_data function to load the data from the file.
+You're going to write the code in the `classification.py`{{open}} file. It already contains needed packages imports. All you need to do is to use the helper read_and_visualise_data function to load the data from the file and create a 2D plot that you can then see in the `data.png` tab.
 
 <pre class="file" data-filename="classification.py" data-target="append">
-# Read the data
-data = h.read_data()
+# Read and visualise the data
+data = h.read_and_visualise_data()
 print data
 </pre>
 

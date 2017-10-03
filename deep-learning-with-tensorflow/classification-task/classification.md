@@ -4,4 +4,6 @@ The primary task of classification problem is to _find the correct labels_ for t
 
 In this scenario, we're going to classify the dots shown in the following picture. You can treat them as geometrical data. The _(x1,x2)_ coefficients are the examples features, while the colour indicates the labels (red and blue).
 
+<img src="/basiafusinska/courses/deep-learning-with-tensorflow/classification-task/assets/dataset.png" alt="Dataset">
+
 In this example, we have only two classes we expect the model to assign the records. This type is often called binary classification. The data have only two features, so they are easy to visualise. This is not the case with most of the real world problems, where we can expect even thousands of dimensions.
