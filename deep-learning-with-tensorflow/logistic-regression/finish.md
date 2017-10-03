@@ -1,5 +1,5 @@
 ## Congratulations!
 
-You've completed **Forward Propagation** scenario.
+You've completed **Logistic Regression** scenario.
 
-You've built the simple neural network and implemented the Forward Propagation. This is the baseline for creating more complex Deep Learning models.
+You've practiced the basics concepts of machine learning process and used them when trying to classify non-linearly separable examples using Logistic Regression.
