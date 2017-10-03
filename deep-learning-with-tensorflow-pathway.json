@@ -6,6 +6,11 @@
       "course_id": "classification-task",
       "title": "Classification task",
       "description": "Introduction to Machine Learning Classification problem"
+    },
+    {
+      "course_id": "logistic-regression",
+      "title": "Logistic Regression",
+      "description": "Using logistic regression to the non lineary separable data classification"
     }
   ]
 }
