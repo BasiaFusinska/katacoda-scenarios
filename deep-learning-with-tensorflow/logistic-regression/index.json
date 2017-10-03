@@ -1,6 +1,6 @@
 {
-  "title": "Classification task",
-  "description": "Introduction to Machine Learning Classification problem",
+  "title": "Logistic Regression",
+  "description": "Using logistic regression to the non lineary separable data classification",
   "difficulty": "beginner",
   "time": "15 minutes",
   "details": {

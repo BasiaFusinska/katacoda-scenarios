@@ -1,6 +1,6 @@
 {
-  "title": "Classification task",
-  "description": "Introduction to Machine Learning Classification problem",
+  "title": "Forward propagation",
+  "description": "Learn how to build simple neural network using numpy",
   "difficulty": "beginner",
   "time": "15 minutes",
   "details": {
