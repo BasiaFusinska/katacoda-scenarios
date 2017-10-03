@@ -33,8 +33,9 @@
     },
     "assets": {
       "client": [{"file": "helper.py", "target": "~/"},
-                 {"file": "forward-propagation.py", "target": "~/"},
-                 {"file": "data.csv", "target": "~/"}]
+                 {"file": "forward_propagation.py", "target": "~/"},
+                 {"file": "linear.csv", "target": "~/"},
+                 {"file": "non_linear.csv", "target": "~/"}]
     }
   },
   "environment": {
