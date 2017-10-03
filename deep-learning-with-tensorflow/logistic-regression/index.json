@@ -1,0 +1,43 @@
+{
+  "title": "Classification task",
+  "description": "Introduction to Machine Learning Classification problem",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [{
+      "title": "Dataset",
+      "text": "dataset.md"
+      },
+      {
+        "title": "Train/Test dataset split",
+        "text": "split.md"
+      },
+      {
+        "title": "Machine Learning Training",
+        "text": "training.md"
+      },
+      {
+        "title": "Algorithm evaluation",
+        "text": "evaluation.md"
+      }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "helpers.py", "target": "~/"},
+                 {"file": "classification.py", "target": "~/"},
+                 {"file": "classification_data.csv", "target": "~/"}]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}
