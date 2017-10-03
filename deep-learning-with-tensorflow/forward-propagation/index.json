@@ -1,0 +1,47 @@
+{
+  "title": "Classification task",
+  "description": "Introduction to Machine Learning Classification problem",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [{
+      "title": "Dataset",
+      "text": "dataset.md"
+      },
+      {
+        "title": "Neural Network Architecture",
+        "text": "network.md"
+      },
+      {
+        "title": "Fully connected output layer",
+        "text": "output.md"
+      },
+      {
+        "title": "Classification",
+        "text": "classification.md"
+      },
+      {
+        "title": "Forward propagation",
+        "text": "forward-propagation.md"
+      }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "helper.py", "target": "~/"},
+                 {"file": "forward-propagation.py", "target": "~/"},
+                 {"file": "data.csv", "target": "~/"}]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}
