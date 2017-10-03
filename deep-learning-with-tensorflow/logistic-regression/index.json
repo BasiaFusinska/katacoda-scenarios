@@ -30,7 +30,7 @@
     "assets": {
       "client": [{"file": "helper.py", "target": "~/"},
                  {"file": "classification.py", "target": "~/"},
-                 {"file": "non-linear.csv", "target": "~/"}]
+                 {"file": "non_linear.csv", "target": "~/"}]
     }
   },
   "environment": {
