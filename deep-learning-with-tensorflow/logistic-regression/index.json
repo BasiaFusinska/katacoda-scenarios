@@ -28,9 +28,9 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [{"file": "helpers.py", "target": "~/"},
+      "client": [{"file": "helper.py", "target": "~/"},
                  {"file": "classification.py", "target": "~/"},
-                 {"file": "classification_data.csv", "target": "~/"}]
+                 {"file": "non-linear.csv", "target": "~/"}]
     }
   },
   "environment": {
