@@ -1,0 +1,44 @@
+{
+  "title": "Hidden layers",
+  "description": "Learn how to build hidden fully connected layers using numpy",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [{
+        "title": "Neural Network Architecture",
+        "text": "network.md"
+      },
+      {
+        "title": "Fully connected output layer",
+        "text": "output.md"
+      },
+      {
+        "title": "Hidden layer",
+        "text": "hidden-layer.md"
+      },
+      {
+        "title": "Classification",
+        "text": "classification.md"
+      }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "helper.py", "target": "~/"},
+                 {"file": "forward_propagation.py", "target": "~/"},
+                 {"file": "linear.csv", "target": "~/"},
+                 {"file": "non_linear.csv", "target": "~/"}]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}

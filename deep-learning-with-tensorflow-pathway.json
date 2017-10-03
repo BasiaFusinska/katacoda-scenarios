@@ -16,6 +16,11 @@
       "course_id": "forward-propagation",
       "title": "Forward propagation",
       "description": "Learn how to build simple neural network using numpy"
+    },
+    {
+      "course_id": "hidden-layers",
+      "title": "Hidden layers",
+      "description": "Learn how to build hidden fully connected layers using numpy"
     }
   ]
 }
