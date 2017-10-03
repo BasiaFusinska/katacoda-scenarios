@@ -5,7 +5,6 @@ data = h.read_data()
 print data
 
 def output_layer_fp(Input, W, b):
-    # Input shape: (data_size, input_size)
     # W shape: (1, input_size)
     # b shape: (1, 1)
 
@@ -13,9 +12,8 @@ def output_layer_fp(Input, W, b):
     return h.sigmoid(output)
 
 def hidden_layer_fp(Input, W, b):
-    # Input shape: (data_size, input_size)
-    # W shape: (1, input_size)
-    # b shape: (1, 1)
+    # W shape: (hidden_size, feature_size)
+    # b shape: (1, hidden_size)
 
     # Task 1: Perform sum(xi*wi) + b for every input value
     output = # TODO: use np.dot or np.matmul function
