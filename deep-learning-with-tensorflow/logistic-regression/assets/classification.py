@@ -27,8 +27,8 @@ pred_train100 =
 
 # Accuracy calculations
 accuracy_train70 = accuracy_score(train70['label'], pred_train70) * 100
-accuracy_test50 = accuracy_score(test30['label'], pred_test70) * 100
-accuracy_train70 = accuracy_score(train50['label'], pred_train50) * 100
+accuracy_test70 = accuracy_score(test30['label'], pred_test70) * 100
+accuracy_train50 = accuracy_score(train50['label'], pred_train50) * 100
 accuracy_test50 = accuracy_score(test50['label'], pred_test50) * 100
 accuracy_train100 = accuracy_score(data['label'], pred_train100) * 100
 
