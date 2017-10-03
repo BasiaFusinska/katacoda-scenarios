@@ -30,8 +30,10 @@ b = # TODO: Set the value of the bias
 fp_linear = # TODO: Use the function with the X_linear
 fp_non_linear = # TODO: Use the function with the X_non_linear
 
-linear_labels = (fp_linear > 0.5)
-non_labels = (fp_non_linear > 0.5)
+linear_labels = np.zeros(len(fp_linear))
+linear_labels[fp_linear > 0.5] = 1
+non_labels = np.zeros(len(fp_non_linear))
+non_labels[fp_non_linear > 0.5] = 1
 
 print linear_labels[:10]
 print non_labels[:10]
