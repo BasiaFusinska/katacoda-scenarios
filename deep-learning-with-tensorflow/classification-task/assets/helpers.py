@@ -13,8 +13,25 @@ def visualise_data(X1, X2, labels, out_file):
     plt.scatter(X1, X2, c=labels, s=40, cmap=plt.cm.Spectral);
     plt.savefig(out_file)
 
-def read_and_visualise_data(file_name='classification_data.csv', out_file='dataset.png'):
+def read_and_visualise_data(file_name='classification_data.csv', out_file='data.png'):
     df = read_data(file_name)
     if not os.path.isfile(out_file):
-         visualise_data(df['x'], df['y'], df['label'], out_file)
+         visualise_data(df['x1'], df['x2'], df['label'], out_file)
     return df
+
+def plot_decision_boundary(model, X, labels, out_file='decision_boundary.png'):
+    # Set min and max values
+    x_min, x_max = X[:, 0].min(), X[:, 0].max()
+    y_min, y_max = X[:, 1].min(), X[:, 1].max()
+    h = 0.01
+    # Generate a grid of points with distance h between them
+    xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
+    # Predict the function value for the whole grid
+    Z = model(np.c_[xx.ravel(), yy.ravel()])
+    Z = Z.reshape(xx.shape)
+    # Plot the contour and training examples
+    plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral)
+    plt.ylabel('x2')
+    plt.xlabel('x1')
+    plt.scatter(X[:, 0], X[:, 1], c=labels, cmap=plt.cm.Spectral)
+    plt.savefig(out_file)
