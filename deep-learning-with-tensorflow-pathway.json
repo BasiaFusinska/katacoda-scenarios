@@ -21,6 +21,11 @@
       "course_id": "hidden-layers",
       "title": "Hidden layers",
       "description": "Learn how to build hidden fully connected layers using numpy"
+    },
+    {
+      "course_id": "neural-network-training",
+      "title": "Neural Network Training",
+      "description": "Create your first Neural Network training process"
     }
   ]
 }
