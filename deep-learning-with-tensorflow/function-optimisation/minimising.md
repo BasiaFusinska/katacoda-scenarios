@@ -6,8 +6,8 @@ The first thing you should do is to create the placeholders for the x and y and 
 
 `x = tf.placeholder(tf.float32)
 y = tf.placeholder(tf.float32)
-a = tf.Variable([1], dtype=tf.float32)
-b = tf.Variable([-2], dtype=tf.float32)`{{execute}}
+a = tf.Variable(1, dtype=tf.float32)
+b = tf.Variable(-2, dtype=tf.float32)`{{execute}}
 
 Then we should set up the model itself.
 
