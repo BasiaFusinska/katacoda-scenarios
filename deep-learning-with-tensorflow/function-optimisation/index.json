@@ -1,0 +1,38 @@
+{
+  "title": "Optimising the function",
+  "description": "Use TensorFlow to optimise the function",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [{
+        "title": "Loss function",
+        "text": "loss.md"
+      },
+      {
+        "title": "Optimiser",
+        "text": "optimiser.md"
+      },
+      {
+        "title": "Optimisation process",
+        "text": "optimisation.md"
+      },
+      {
+        "title": "Minimising the loss",
+        "text": "minimising.md"
+      }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}
