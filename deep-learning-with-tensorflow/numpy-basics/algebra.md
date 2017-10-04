@@ -3,6 +3,7 @@ Numpy offers a lot of functionalities for the linear algebra computations. You c
 Transposing is as easy as:
 
 `a = np.array([[1, 2, 3], [0, 1, 3]])
+a
 a.T
 a.transpose()`{{execute}}
 

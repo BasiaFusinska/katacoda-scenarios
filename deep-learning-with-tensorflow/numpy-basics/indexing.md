@@ -7,9 +7,9 @@ For multidimensional arrays, you can use indices per axis.
 
 `b = a.reshape(4, 3)
 b
-b[2, 1] # Element in the 2nd row and 1st column
-b[:, 3] # 3-rd column
-b[1, :] # 1st row`{{execute}}
+b[3, 1] # Element in the 4th row and 2nd column
+b[:, 2] # 3-rd column
+b[1, :] # 2nd row`{{execute}}
 
 For short you can use minus values when accessing an element from the end.
 

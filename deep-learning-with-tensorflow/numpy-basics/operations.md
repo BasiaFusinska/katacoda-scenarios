@@ -20,4 +20,5 @@ a % 2 == 0`{{execute}}
 Some operations are working in place, without creating a new array:
 
 `a += 10
-a /= 2`{{execute}}
+a /= 2
+a`{{execute}}
