@@ -2,7 +2,11 @@ The goal of optimisation problem is to find the values that minimise or maximise
 
 The first function we'll deal with is going to be the quadratic function:
 
+<img src="/basiafusinska/courses/deep-learning-with-tensorflow/function-optimisation/assets/equation.png" alt="Network architecture">
+
 You can see its plot below:
+
+<img src="/basiafusinska/courses/deep-learning-with-tensorflow/function-optimisation/assets/quadratic.png" alt="Network architecture">
 
 The function has the minimum (of value 1) in the point 5. This one happens to have the analytical solution, but it's not usually the case. In the situation like this, you should use the math instead of the iterative optimisation process. Nonetheless, we will use the TensorFlow, for learning.
 
