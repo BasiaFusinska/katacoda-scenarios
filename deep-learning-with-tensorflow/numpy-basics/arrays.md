@@ -1,4 +1,4 @@
-_Numpy_ package is one the most widely used library in the Python environment. It enables straightforwardly vectorising the operations.  In the world of Deep Learning and Neural Networks, this is a desirable quality.
+_Numpy_ package is one the most widely used library in the Python environment. It enables straightforwardly [vectorising](https://en.wikipedia.org/wiki/Array_programming) the operations.  In the world of Deep Learning and Neural Networks, this is a desirable quality.
 
 Numpy's main object is a multidimensional array storing elements of the same type, usually numbers. The arrays (_umpy.array_) created using the library differ from the ones in Python standard library (_array.array_). Let us first run the Python command line and import the package.
 
@@ -26,5 +26,9 @@ To change it, use the reshape function:
 
 You may find the functions zeros and ones useful to create arrays containing only 0s or 1s:
 
-`np.zeros(3, 4)
-np.ones(2, 3)`{{execute}}
+`np.zeros((3, 4))
+np.ones((2, 3))`{{execute}}
+
+For the randomly generated numbers apply:
+
+`np.random.random((2,3))`{{execute}}
