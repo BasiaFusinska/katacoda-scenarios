@@ -8,10 +8,10 @@ sess.run(tf.global_variables_initializer())`{{execute}}
 The process will run iteratively.
 
 `for i in range(20):
-   sess.run(train_step)`{{execute}}
+   sess.run(optimiser)
+`{{execute}}
 
 After it's done, let's print the result and close the session.
 
-`y_v, x_v = sess.run(y), sess.run(x)
-print 'Minimised value is: %d for the x: %d' % y_v, x_v
+`print('Minimised value is: {} for the x: {}'.format(sess.run(y), sess.run(x)))
 sess.close()`{{execute}}

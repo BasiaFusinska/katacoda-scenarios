@@ -1,10 +1,11 @@
 Your task now is to use the same process to optimise the variables from the example in the TensorFlow Core scenario. Below you can see the problem reminder.
 
+<img src="/basiafusinska/courses/deep-learning-with-tensorflow/function-optimisation/assets/lin-model.png" alt="Linear model">
+
 The first thing you should do is to create the placeholders for the x and y and variables for the linear model.
 
 `x = tf.placeholder(tf.float32)
 y = tf.placeholder(tf.float32)
-
 a = tf.Variable([1], dtype=tf.float32)
 b = tf.Variable([-2], dtype=tf.float32)`{{execute}}
 
