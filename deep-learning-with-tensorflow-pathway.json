@@ -13,6 +13,11 @@
       "description": "Using logistic regression to the non lineary separable data classification"
     },
     {
+      "course_id": "numpy-basics",
+      "title": "Numpy Basics",
+      "description": "Introduction to Python numpy package"
+    },
+    {
       "course_id": "forward-propagation",
       "title": "Forward propagation",
       "description": "Learn how to build simple neural network using numpy"

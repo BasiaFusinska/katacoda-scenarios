@@ -1,0 +1,38 @@
+{
+  "title": "Numpy Basics",
+  "description": "Introduction to Python numpy package",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [{
+        "title": "Creating the arrays",
+        "text": "arrays.md"
+      },
+      {
+        "title": "Operations",
+        "text": "operations.md"
+      },
+      {
+        "title": "Applying the functions",
+        "text": "functions.md"
+      },
+      {
+        "title": "Linear algebra",
+        "text": "algebra.md"
+      }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}
