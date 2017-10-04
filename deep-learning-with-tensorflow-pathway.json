@@ -31,6 +31,12 @@
       "course_id": "neural-network-training",
       "title": "Neural Network Training",
       "description": "Create your first Neural Network training process"
+    },
+    {
+      "course_id": "tensorflow-core",
+      "pathway_id": "tensorflow-getting-started",
+      "title": "Computational Graph: Core",
+      "description": "Introduction to TensorFlow Core"
     }
   ]
 }
