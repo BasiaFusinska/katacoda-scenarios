@@ -2,16 +2,16 @@ So far we defined how the optimisation process should look like. In TensorFlow t
 
 We'll create the session and initialise the variables.
 
-sess = tf.InteractiveSession()
-sess.run(tf.global_variables_initializer())
+`sess = tf.InteractiveSession()
+sess.run(tf.global_variables_initializer())`{{execute}}
 
 The process will run iteratively.
 
-for i in range(20):
-   sess.run(train_step)
+`for i in range(20):
+   sess.run(train_step)`{{execute}}
 
 After it's done, let's print the result and close the session.
 
-y_v, x_v = sess.run(y), sess.run(x)
+`y_v, x_v = sess.run(y), sess.run(x)
 print 'Minimised value is: %d for the x: %d' % y_v, x_v
-sess.close()
+sess.close()`{{execute}}
