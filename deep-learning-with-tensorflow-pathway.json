@@ -65,6 +65,11 @@
       "description": "Walkthrough the TensorFlow training process for MNIST dataset"
     },
     {
+      "course_id": "tensorflow-mnist-training",
+      "title": "MNIST Dataset Deep Learning",
+      "description": "Build deep network for MNIST Dataset in TensorFlow"
+    },
+    {
       "course_id": "tensorflow-mnist-expert",
       "pathway_id": "tensorflow-getting-started",
       "title": "MNIST Simple Neural Network Training Solution",
