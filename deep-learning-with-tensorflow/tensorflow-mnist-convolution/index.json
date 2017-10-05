@@ -1,0 +1,46 @@
+{
+  "title": "MNIST Dataset Convolution",
+  "description": "Build convolutional network for MNIST Dataset in TensorFlow",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+      "title": "Load Dataset",
+      "text": "dataset.md"
+      },
+      {
+        "title": "Convolutional layer",
+        "text": "convolution.md"
+      },
+      {
+        "title": "Second convolution",
+        "text": "second-convolution.md"
+      },
+      {
+        "title": "Fully connected layers",
+        "text": "fully-connected.md"
+      },
+      {
+        "title": "Loss function and Training",
+        "text": "training.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "neural_network.py", "target": "~/"}]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}

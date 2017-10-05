@@ -74,5 +74,10 @@
       "pathway_id": "tensorflow-getting-started",
       "title": "MNIST Simple Neural Network Training Solution",
       "description": "Walkthrough the deep network creation for MNIST dataset"
-    }  ]
+    },
+    {
+      "course_id": "tensorflow-mnist-convolution",
+      "title": "MNIST Dataset Convolution",
+      "description": "Build convolutional network for MNIST Dataset in TensorFlow"
+    }]
 }
