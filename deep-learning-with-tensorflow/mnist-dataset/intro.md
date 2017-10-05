@@ -1,0 +1,1 @@
+MNIST Dataset is considered to be the Hello world example for the Deep Learning tasks. It contains handwritten digits examples and corresponding labels. The classification task that can be applied to the dataset is more complex than binary classification we've seen so far in the course.
