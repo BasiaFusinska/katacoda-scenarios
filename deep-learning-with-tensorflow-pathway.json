@@ -54,6 +54,11 @@
       "description": "Create deep classifying neural network in TensorFlow"
     },
     {
+      "course_id": "mnist-dataset",
+      "title": "MNIST Dataset",
+      "description": "Introduction to MNIST Dataset provided by TensorFlow"
+    },
+    {
       "course_id": "tensorflow-mnist-beginner",
       "pathway_id": "tensorflow-getting-started",
       "title": "MNIST Simple Neural Network Training",
