@@ -37,8 +37,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [{"file": "neural_network.py", "target": "~/"},
-                 {"file": "dataset.csv", "target": "~/"}]
+      "client": [{"file": "neural_network.py", "target": "~/"}]
     }
   },
   "environment": {
