@@ -2,7 +2,7 @@ In this scenario, we will use [TensorFlow](https://www.tensorflow.org/) for the 
 
 <img src="/basiafusinska/courses/deep-learning-with-tensorflow/tensorflow-training/assets/dataset.png" alt="Dataset">
 
-To start working on the task let us include some necessary imports and read the data.
+To start working on the task, open the `neural_network.py`{{open}} file. Include some necessary imports and read the data.
 
 <pre class="file" data-filename="neural_network.py" data-target="replace">
 import tensorflow as tf
