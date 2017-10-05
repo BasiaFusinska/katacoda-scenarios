@@ -5,12 +5,12 @@ In this scenario, we will use [TensorFlow](https://www.tensorflow.org/) for the 
 To start working on the task, open the `neural_network.py`{{open}} file. Include some necessary imports and read the data.
 
 <pre class="file" data-filename="neural_network.py" data-target="replace">
-import helper as h
+import pandas as pd
 import numpy as np
 import tensorflow as tf
 
 # Read data
-data = h.read_data()
+data = pd.read_csv('dataset.csv')
 X = data.as_matrix(['x1', 'x2'])
 Y = data.as_matrix(['label'])
 </pre>
