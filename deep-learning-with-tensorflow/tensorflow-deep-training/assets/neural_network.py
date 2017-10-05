@@ -7,9 +7,9 @@ data = pd.read_csv('dataset.csv')
 X = data.as_matrix(['x1', 'x2'])
 Y = data.as_matrix(['label'])
 
-learning_rate = 0.05
-steps_number = 200
-hidden_size = 10
+learning_rate = 0.5
+steps_number = 10000
+hidden_size = 5
 
 # Task 1: Define placeholders
 x = # TODO: Placeholder shape [None, 2]
@@ -47,7 +47,7 @@ for i in range(steps_number):
   # Run the training step
   train_step.run(feed_dict=feed_dict)
 
-  # Print the accuracy progress on the batch every 100 steps
-  if i%10 == 0:
+  # Print the accuracy progress on the batch every 1000 steps
+  if i%1000 == 0:
     train_accuracy = accuracy.eval(feed_dict=feed_dict)
     print("Step %d, training accuracy %g %%"%(i, train_accuracy*100))
