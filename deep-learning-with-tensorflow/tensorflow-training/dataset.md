@@ -19,5 +19,5 @@ We are also defining some of the values that will be use further in the code:
 
 <pre class="file" data-filename="neural_network.py" data-target="append">
 learning_rate = 0.05
-steps_number = 1000
+steps_number = 200
 </pre>

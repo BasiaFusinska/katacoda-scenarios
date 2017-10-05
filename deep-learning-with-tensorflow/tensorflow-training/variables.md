@@ -8,5 +8,5 @@ W = tf.Variable([[0.1], [0.1]], dtype=tf.float32)
 b = tf.Variable([0.1], dtype=tf.float32)
 
 # Build the network (only output layer)
-output = tf.matmul(y, W) + b
+output = tf.matmul(x, W) + b
 </pre>

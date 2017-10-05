@@ -11,7 +11,7 @@ We are going to run the training in steps. In our case, we run the `train_step` 
 <pre class="file" data-filename="neural_network.py" data-target="append">
 for i in range(steps_number):
   # Set up the dictionary
-  feed_dict = {training_data: X, labels: Y}
+  feed_dict = {x: X, labels: Y}
 
   # Run the training step
   train_step.run(feed_dict=feed_dict)

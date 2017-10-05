@@ -2,7 +2,7 @@ We'll use the `accuracy` defined previously to monitor the performance during th
 
 <pre class="file" data-filename="neural_network.py" data-target="append">
   # Print the accuracy progress on the batch every 100 steps
-  if i%100 == 0:
+  if i%10 == 0:
     train_accuracy = accuracy.eval(feed_dict=feed_dict)
     print("Step %d, training accuracy %g %%"%(i, train_accuracy*100))
 </pre>
