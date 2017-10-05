@@ -47,6 +47,11 @@
       "course_id": "tensorflow-training",
       "title": "TensorFlow Network Training",
       "description": "Create simple classifying neural network in TensorFlow"
+    },
+    {
+      "course_id": "tensorflow-deep-training",
+      "title": "TensorFlow Deep Network Training",
+      "description": "Create deep classifying neural network in TensorFlow"
     }
   ]
 }
