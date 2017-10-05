@@ -3,3 +3,7 @@ This scenario is an introduction to the [MNIST dataset](http://yann.lecun.com/ex
 <img src="/basiafusinska/courses/deep-learning-with-tensorflow/mnist-dataset/assets/MNIST.png" alt="MNIST Dataset">
 
 Apart from images, the dataset contains actual labels, so that the machine learning task can be supervised.
+
+To start using Python use the following command:
+
+`python`{{execute}}
