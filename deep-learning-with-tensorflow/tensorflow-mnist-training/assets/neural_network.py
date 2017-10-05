@@ -18,7 +18,7 @@ bh = # TODO: Variable shape: [hidden_size]
 
 hidden = # TODO: training_data x Wh + bh; use tf.nn.relu
 
-# Define output layer
+# Task 4: Define output layer
 Wo = # TODO: Variable shape: [hidden_size, labels_size]
 bo = # TODO: Variable shape: [labels_size]
 
@@ -31,7 +31,7 @@ batch_size = 100
 # Define the loss function
 loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=labels, logits=output))
 
-# Task 4: Define Adam Optimiser to minimise the loss
+# Task 5: Define Adam Optimiser to minimise the loss
 train_step =
 
 # Accuracy calculation
@@ -42,23 +42,22 @@ accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 sess = tf.InteractiveSession()
 sess.run(tf.global_variables_initializer())
 
-# Task 5: Define training
+# Task 6: Define training
 for i in range(steps_number):
     input_batch, labels_batch = # TODO: Get the next batch from the training data, use batch_size
 
+    feed_batch = # TODO: Use batch data
     # Print the accuracy progress on the batch every 100 steps
     if i%100 == 0:
-        feed_batch = # TODO: Use batch data
         train_accuracy = accuracy.eval(feed_dict=feed_batch)
         print("Step %d, training batch accuracy %g %%"%(i, train_accuracy*100))
 
-        # Run the training step
-        feed_data = # TODO: Use training data
-        train_step.run(feed_dict=feed_data)
+    # Run the training step
+    train_step.run(feed_dict=feed_batch)
 
     print("The end of training!")
 
-# Task 6: Evaluate on the test set
+# Task 7: Evaluate on the test set
 feed_test = # TODO: Use test data
 test_accuracy = accuracy.eval(feed_dict=feed_test)
 print("Test accuracy: %g %%"%(test_accuracy*100))
