@@ -55,8 +55,6 @@ for i in range(steps_number):
     # Run the training step
     train_step.run(feed_dict=feed_batch)
 
-    print("The end of training!")
-
 # Task 7: Evaluate on the test set
 feed_test = # TODO: Use test data
 test_accuracy = accuracy.eval(feed_dict=feed_test)
