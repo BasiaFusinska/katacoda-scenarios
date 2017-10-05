@@ -52,6 +52,12 @@
       "course_id": "tensorflow-deep-training",
       "title": "TensorFlow Deep Network Training",
       "description": "Create deep classifying neural network in TensorFlow"
+    },
+    {
+      "course_id": "tensorflow-mnist-beginner",
+      "pathway_id": "tensorflow-getting-started",
+      "title": "Computational Graph: Neural Network Training",
+      "description": "Walkthrough the TensorFlow training process for MNIST dataset"
     }
   ]
 }
