@@ -42,6 +42,11 @@
       "course_id": "function-optimisation",
       "title": "Optimising the function",
       "description": "Use TensorFlow to optimise the function"
+    },
+    {
+      "course_id": "tensorflow-training",
+      "title": "TensorFlow Network Training",
+      "description": "Create simple classifying neural network in TensorFlow"
     }
   ]
 }
