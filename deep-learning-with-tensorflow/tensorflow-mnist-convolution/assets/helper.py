@@ -35,5 +35,5 @@ def train_evaluate_network(training_data, labels, output, mnist):
     print("The end of training!")
 
     # Evaluate on the test set
-    test_accuracy = accuracy.eval(feed_dict={training_data: mnist.test.images, labels: mnist.test.labels, keep_prob: 1.0})
+    test_accuracy = accuracy.eval(feed_dict={training_data: mnist.test.images, labels: mnist.test.labels})
     print("Test accuracy: %g %%"%(test_accuracy*100))

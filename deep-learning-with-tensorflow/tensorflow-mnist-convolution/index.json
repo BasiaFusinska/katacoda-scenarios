@@ -33,7 +33,8 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [{"file": "neural_network.py", "target": "~/"}]
+      "client": [{"file": "neural_network.py", "target": "~/"},
+                 {"file": "helper.py", "target": "~/"}]
     }
   },
   "environment": {
