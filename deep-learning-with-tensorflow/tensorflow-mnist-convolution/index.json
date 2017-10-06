@@ -5,8 +5,8 @@
   "time": "10 minutes",
   "details": {
     "steps": [{
-      "title": "Load Dataset",
-      "text": "dataset.md"
+        "title": "Load Dataset",
+        "text": "dataset.md"
       },
       {
         "title": "Convolutional layer",
