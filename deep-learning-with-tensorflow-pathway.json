@@ -79,5 +79,10 @@
       "course_id": "tensorflow-mnist-convolution",
       "title": "MNIST Dataset Convolution",
       "description": "Build convolutional network for MNIST Dataset in TensorFlow"
+    },
+    {
+      "link": "/basiafusinska/scenarios/tensorflow-layers",
+      "title": "APIs: Hidden layers with tf.layers",
+      "description": "Walkthrough the deep network creation for MNIST dataset"
     }]
 }
