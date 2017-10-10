@@ -9,6 +9,7 @@ The process will run iteratively.
 
 `for i in range(20):
    sess.run(optimiser)
+
 `{{execute}}
 
 After it's done, let's print the result and close the session.

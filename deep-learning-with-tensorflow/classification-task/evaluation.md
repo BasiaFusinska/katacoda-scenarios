@@ -20,12 +20,6 @@ print 'Train accuracy: %d %%' % accuracy_train
 print 'Test accuracy: %d %%' % accuracy_test
 </pre>
 
-If you want to see the decision boundary, plot another graph. You can see it later in the decision_boundary.png file.
-<pre class="file" data-filename="classification.py" data-target="append">
-# Plot decision boundary
-h.plot_decision_boundary(lambda x: model.predict(x), data[['x1', 'x2']].values, data['label'])
-</pre>
-
 Run the script using the following command:
 `python classification.py`{{execute}}
 

@@ -37,8 +37,3 @@ print 'Test accuracy 70-30: %d %%' % accuracy_test70
 print 'Train accuracy 50-50: %d %%' % accuracy_train50
 print 'Test accuracy 50-50: %d %%' % accuracy_test50
 print 'Train accuracy 100-0: %d %%' % accuracy_train100
-
-# Plot decision boundary
-h.plot_decision_boundary(lambda x: model70.predict(x), data[['x1', 'x2']].values, data['label'], out_file='decision_boundary70.png')
-h.plot_decision_boundary(lambda x: model50.predict(x), data[['x1', 'x2']].values, data['label'], out_file='decision_boundary50.png')
-h.plot_decision_boundary(lambda x: model100.predict(x), data[['x1', 'x2']].values, data['label'])

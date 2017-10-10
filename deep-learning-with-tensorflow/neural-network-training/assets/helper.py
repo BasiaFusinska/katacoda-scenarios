@@ -57,20 +57,3 @@ def predict(X, W1, b1, W2, b2):
     labels = np.zeros(output.shape)
     labels[output > 0.5] = 1
     return labels
-
-def plot_decision_boundary(model, X, labels, out_file='decision_boundary.png'):
-    # Set min and max values and add a little padding
-    x_min, x_max = X[:, 0].min() - 0.1, X[:, 0].max() + 0.1
-    y_min, y_max = X[:, 1].min() - 0.1, X[:, 1].max() + 0.1
-    h = 0.01
-    # Generate a grid of points with distance h between them
-    xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
-    # Predict the function value for the whole grid
-    Z = model(np.c_[xx.ravel(), yy.ravel()])
-    Z = Z.reshape(xx.shape)
-    # Plot the contour and training examples
-    plt.contourf(xx, yy, Z, cmap=plt.cm.Spectral)
-    plt.ylabel('x2')
-    plt.xlabel('x1')
-    plt.scatter(X[:, 0], X[:, 1], c=labels, cmap=plt.cm.Spectral)
-    plt.savefig(out_file)

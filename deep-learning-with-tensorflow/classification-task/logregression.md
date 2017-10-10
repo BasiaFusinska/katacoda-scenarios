@@ -8,11 +8,11 @@ We're in the lucky position that this line can be drawn in many ways, and still 
 
 The data is stored in the classification_data.csv file. The first thing we're going to do is to read and visualise the data. Some helper functions have already been written for you. They can be found in the helpers.py file.
 
-You're going to write the code in the `classification.py`{{open}} file. It already contains needed packages imports. All you need to do is to use the helper read_and_visualise_data function to load the data from the file and create a 2D plot that you can then see in the `data.png` tab.
+You're going to write the code in the `classification.py`{{open}} file. It already contains needed packages imports. All you need to do is to use the helper `read_data` function to load the data from the file.
 
 <pre class="file" data-filename="classification.py" data-target="append">
-# Read and visualise the data
-data = h.read_and_visualise_data()
+# Read the data
+data = h.read_data()
 print data
 </pre>
 

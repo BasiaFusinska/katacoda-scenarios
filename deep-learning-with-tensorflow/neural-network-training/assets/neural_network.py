@@ -26,5 +26,3 @@ for i in range(0, num_iteration):
 
 accuracy = accuracy_score(Y, h.predict(X, W1, b1, W2, b2)) * 100
 print 'Accuracy after the training: %d %%' % accuracy
-
-h.plot_decision_boundary(lambda x: h.predict(x, W1, b1, W2, b2), X, Y)
