@@ -7,13 +7,37 @@
     "steps": [{
       "title": "Text Classification",
       "text": "classification.md"
-    }],
+    },
+    {
+      "title": "Read data",
+      "text": "read_data.md"
+    },
+    {
+      "title": "Bag of Words",
+      "text": "bow.md"
+    },
+    {
+      "title": "Count Vector",
+      "text": "count_vector.md"
+    },
+    {
+      "title": "tf-idf",
+      "text": "tfidf.md"
+    },
+    {
+      "title": "Classification model",
+      "text": "model.md"
+    }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "data_reader.py", "target": "~/"}]
     }
   },
   "environment": {
