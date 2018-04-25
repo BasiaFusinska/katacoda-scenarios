@@ -24,6 +24,7 @@ def fit_transform_vectorizer(vectorizer, print_features=True):
     if print_features:
         print(vectorizer.get_feature_names())
     return one_hot
+
 ```{{execute}}
 
 All we have to do now is to use the function and pass a vanilla CountVectorizer. Let's see what happens.
