@@ -5,16 +5,17 @@ Another way to get the feature vector is to use *tf-idf* model. It is based on c
 
 *sklearn* again offering a class (*TfidfVectorizer*) to do the calculations for us. As we've learned from the previous experience we'll use the other techniques and just change the type of vectorizer assigning the transformation to the separate value.
 
-
-`from sklearn.feature_extraction.text import TfidfVectorizer
+```
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 analyzer = TfidfVectorizer(stop_words='english', token_pattern='[a-zA-Z]{2,}').build_analyzer()
 
 vectorizer_tfidf = TfidfVectorizer(max_features=500, analyzer=(lambda text: (stemmer.stem(word) for word in analyzer(text))))
-tfidf = fit_transform_vectorizer(vectorizer_tfidf)`{{execute}}
+tfidf = fit_transform_vectorizer(vectorizer_tfidf)
+```{{execute}}
 
 The vocabulary looks exactly the same but the representation differ. Instead of counts it should now contain real values representing tf-idf index. Let's have a look at the result of transformation.
 
 `print(tfidf.toarray())
-example_idx = 73 # Feel free to change the index
+example_idx = 73 
 print(tfidf.toarray()[example_idx])`{{execute}}

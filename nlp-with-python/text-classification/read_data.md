@@ -11,11 +11,13 @@ train_documents, train_labels, test_documents, test_labels = data_reader.read_tr
 
 Once the documents and labels are read you can have a look at the data. The code here is displaying the number of examples in both training and test datasets. Then we use *set* to get unique values from labels, which will constitute to the available categories.
 
-`print("Number of documents in the training set: ", len(train_documents))
+```
+print("Number of documents in the training set: ", len(train_documents))
 print("Number of documents in the test set: ", len(test_documents))
 
 categories = set(train_labels)
-print("Categories (", len(categories), "): ", categories)`{{execute}}
+print("Categories (", len(categories), "): ", categories)
+```{{execute}}
 
 In the next command you can have a look at the content of the documents. Change the index by replacing the *example_idx* value and print the document and corresponding category.
 

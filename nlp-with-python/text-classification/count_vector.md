@@ -27,13 +27,15 @@ Now the words seem to bring more meaning. The last issue is [stemming](https://e
 
 There are several stemmers out there so you don't have to write your own (it's actually quite a complex although interesting task). We will use *PorterStemmer* imported from *nltk* library. This time our vectorizer construction has to change a little bit. We will first build the analyzer and then use it to initialize the final one.
 
-`from nltk.stem.porter import PorterStemmer
+```
+from nltk.stem.porter import PorterStemmer
 
 stemmer = PorterStemmer()
 analyzer = CountVectorizer(stop_words='english', token_pattern='[a-zA-Z]{2,}').build_analyzer()
 
 vectorizer = CountVectorizer(max_features=500, analyzer=(lambda text: (stemmer.stem(word) for word in analyzer(text))))
-one_hot = fit_transform_vectorizer(vectorizer)`{{execute}}
+one_hot = fit_transform_vectorizer(vectorizer)
+```{{execute}}
 
 Now we can see how this representation looks like and then how well it can be used to predict the category of text. First let's have a peek on the result of transformation and display one example. Feel free to change the index and check others.
 
