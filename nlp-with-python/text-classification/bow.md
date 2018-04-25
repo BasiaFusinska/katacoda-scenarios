@@ -12,7 +12,8 @@ Python [sklearn](http://scikit-learn.org) library offers [CountVectorizer](http:
 
 The following function is a helper that takes the vectorizer object, fits to the provided collection and transforms it according to the built model. Additionally it prints the vocabulary (feature names). As a default it will extract every word defined as the alphanumeric one with the length of at least 2.
 
-```from sklearn.feature_extraction.text import CountVectorizer
+```
+from sklearn.feature_extraction.text import CountVectorizer
 
 def fit_transform_vectorizer(vectorizer, print_features=True):
     one_hot = vectorizer.fit_transform(train_documents)
