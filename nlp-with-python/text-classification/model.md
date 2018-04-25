@@ -1,9 +1,11 @@
 We will use now those two representations (vector count and tf-idf) to train two separate models. As the machine learning algorithm we will use multinomial Naive Bayes which is offered in *sklearn* by class *MultinomialNB*. Once we fit to the training data (which were created by transforming *train_documents*), the model can be used to make future predictions.
 
-`from sklearn.naive_bayes import MultinomialNB
+```
+from sklearn.naive_bayes import MultinomialNB
 
 one_hot_model = MultinomialNB().fit(one_hot, train_labels)
-tfidf_model = MultinomialNB().fit(tfidf, train_labels)`{{execute}}
+tfidf_model = MultinomialNB().fit(tfidf, train_labels)
+```{{execute}}
 
 Let's check how both models perform on the training and test datasets. As we already have the vectorised presentations for the training set, we need to do the same for the test documents. This time we will use *transform* method for both vectorizers ans we no longer need to fit them.
 

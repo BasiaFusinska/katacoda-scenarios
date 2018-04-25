@@ -4,9 +4,13 @@ Now it's time to start feature generation for the read documents. First we will 
 
 [ also, and, both, football, games, john, like, likes, mary, movie, movies, titanic, to, too, watch ]
 
-the sentence "John likes to watch movies. Mary likes to watch movies too." will become the following vector:
+the sentence:
 
-[ 0, 0, 0, 0, 0, 1, 0, 2, 1, 0, 1, 0, 2, 1, 2 ]
+*"John likes to watch movies. Mary likes to watch movies too."*
+
+will become the following vector:
+
+*[ 0, 0, 0, 0, 0, 1, 0, 2, 1, 0, 1, 0, 2, 1, 2 ]*
 
 Python [sklearn](http://scikit-learn.org) library offers [CountVectorizer](http://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html#sklearn.feature_extraction.text.CountVectorizer) class to do this task for you. It takes collection of texts, builds the vocabulary based on words that appear in it and transforms it to the count vectors. It makes the preprocessing easier as you don't have to split the text, count occurences and build your vocabulary. It also uses efficient data structures to represent the vectors as they will be sparsed.
 
