@@ -13,6 +13,11 @@
       "description": "Introduction to NLTK"
     },
     {
+      "course_id": "bag-of-words",
+      "title": "Introduction to Bag of Words",
+      "description": "Introduction to Bag of Words"
+    },
+    {
       "course_id": "text-classification",
       "title": "Text Classification",
       "description": "Using Bag of Words model for text classification"

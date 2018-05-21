@@ -1,0 +1,31 @@
+{
+  "title": "Introduction to Bag of Words",
+  "description": "Building Bag of Words model",
+  "difficulty": "beginner",
+  "time": "20 minutes",
+  "details": {
+    "steps": [
+    {
+      "title": "Read data",
+      "text": "read_data.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "data_reader.py", "target": "~/"}]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart using `python` command\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "python-nltk"
+  }
+}
