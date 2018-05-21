@@ -16,6 +16,10 @@
     {
       "title": "Counting words",
       "text": "word_count.md"
+    },
+    {
+      "title": "Part of speech tagging",
+      "text": "pos.md"
     }
     ],
     "intro": {
