@@ -12,6 +12,8 @@ def cosine_similarity(v1, v2):
 Once the function is defined calculate some similarities:
 
 ```
+import numpy as np
+
 idx1 = 25
 idx2 = 134
 
