@@ -9,16 +9,13 @@ def vectorize_doc(document, vocabulary):
     doc_words = word_tokenize(document.lower())
     doc_words = [stemmer.stem(word) for word in doc_words]
     doc_frequencies = FreqDist(doc_words)
-
     voc_size = len(vocabulary)
     doc_vector = np.zeros(voc_size)
     for idx in range(0, voc_size):
         token = vocabulary[idx]
         if token in doc_frequencies.keys():
             doc_vector[idx] = doc_frequencies[token]
-
     return doc_vector
-
 ```{{execute}}
 
 Once you have this function see how the vector looks like for different documents.
