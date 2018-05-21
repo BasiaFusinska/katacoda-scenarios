@@ -16,6 +16,10 @@
     {
       "title": "Read data",
       "text": "read_data.md"
+    },
+    {
+      "title": "Count vector",
+      "text": "count_vector.md"
     }
     ],
     "intro": {
