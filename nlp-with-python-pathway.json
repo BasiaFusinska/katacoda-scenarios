@@ -21,6 +21,11 @@
       "course_id": "text-classification",
       "title": "Text Classification",
       "description": "Using Bag of Words model for text classification"
+    },
+    {
+      "course_id": "embeddings",
+      "title": "Introduction to word embeddings",
+      "description": "Introduction to word embeddings"
     }
   ]
 }
