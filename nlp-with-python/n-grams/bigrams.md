@@ -11,8 +11,11 @@ To create a bigram use `zip` to go through two lists having different starting p
 ```
 def bigrams(tokens):
   return zip(tokens, tokens[1:])
-list(bigrams(sentence_tokens))
 ```{{execute}}
+
+Let's have a look:
+
+`list(bigrams(sentence_tokens))`{{execute}}
 
 ## Task: Create Trigrams function
 
