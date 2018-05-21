@@ -16,6 +16,10 @@
     {
       "title": "Tokenizing",
       "text": "tokenizing.md"
+    },
+    {
+      "title": "Counting words",
+      "text": "word_count.md"
     }
     ],
     "intro": {
