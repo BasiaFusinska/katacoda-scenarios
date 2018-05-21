@@ -8,6 +8,14 @@
     {
       "title": "Read embeddings",
       "text": "read_data.md"
+    },
+    {
+      "title": "Cosine similarity",
+      "text": "similarity.md"
+    },
+    {
+      "title": "Similar words",
+      "text": "similar_words.md"
     }
     ],
     "intro": {
