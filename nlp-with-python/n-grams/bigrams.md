@@ -10,7 +10,7 @@ To create a bigram use `zip` to go through two lists having different starting p
 
 ```
 def bigrams(tokens):
-  return zip(tokens, tokens[1:])
+    return zip(tokens, tokens[1:])
 ```{{execute}}
 
 Let's have a look:
