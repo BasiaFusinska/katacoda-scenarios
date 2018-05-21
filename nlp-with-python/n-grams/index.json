@@ -6,12 +6,16 @@
   "details": {
     "steps": [
     {
-      "title": "Read data",
-      "text": "read_data.md"
-    },
-    {
       "title": "Bigrams",
       "text": "bigrams.md"
+    },
+    {
+      "title": "n-grams",
+      "text": "n-grams.md"
+    },
+    {
+      "title": "Read data",
+      "text": "read_data.md"
     }
     ],
     "intro": {
