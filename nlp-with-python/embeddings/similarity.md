@@ -18,7 +18,7 @@ idx2 = 134
 v1 = embeddings[words[idx1]]
 v2 = embeddings[words[idx2]]
 
-print(cosine_similarity(v1, v2))
+cosine_similarity(v1, v2)
 ```{{execute}}
 
 Feel free to change indexes and experiment.

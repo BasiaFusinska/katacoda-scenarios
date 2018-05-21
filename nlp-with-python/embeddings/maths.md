@@ -8,11 +8,11 @@ The following function is using the one you've built in the last step to build a
 
 ```
 def x_is_to_y_as_z_is_to(x, y, z, embeddings):
-    vx = embeddings[x]
-    vy = embeddings[y]
-    vz = embeddings[z]
+    vx = embeddings[x.lower()]
+    vy = embeddings[y.lower()]
+    vz = embeddings[z.lower()]
     vector = vy - vx + vz
-    word, _ = get_nearest(vector, embeddings)
+    word, _ = get_nearest(vector, embeddings)[0]
     print(x, "is to", y, "as", z, "is to", word)
     return word
 ```{{execute}}
@@ -20,9 +20,8 @@ def x_is_to_y_as_z_is_to(x, y, z, embeddings):
 Try it out with different combinations:
 
 ```
-x_is_to_y_as_z_is_to("britain", "british", "china")
-x_is_to_y_as_z_is_to("england", "london", "france")
-x_is_to_y_as_z_is_to("dog", "mammals", "eagle")
-x_is_to_y_as_z_is_to("shirt", "clothing", "phone")
-x_is_to_y_as_z_is_to("king", "man", "queen")
+x_is_to_y_as_z_is_to("britain", "british", "china", embeddings)
+x_is_to_y_as_z_is_to("england", "london", "france", embeddings)
+x_is_to_y_as_z_is_to("england", "london", "china", embeddings)
+x_is_to_y_as_z_is_to("king", "man", "queen", embeddings)
 ```{{execute}}
