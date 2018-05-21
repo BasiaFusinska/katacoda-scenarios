@@ -11,9 +11,10 @@ One way is to remove the characters (for instance all the character from ''). Yo
 "(abcd)".isalpha()
 `{{execute}}
 
-Another way is to use regular expressions.
+Another way is to use regular expressions. If there is a match to the expression the match will be returned (`None` is the output of there not being a match).
 
-`import re
+```
+import re
 pattern = re.compile("^[a-zA-Z]{2,}$") # Only words that are at least two characters long and letters of the alphabet
 
 pattern.match("a")
@@ -21,7 +22,8 @@ pattern.match("ab")
 pattern.match("a0b")
 pattern.match("012")
 pattern.match("(abc)")
-pattern.match("abc.")`{{execute}}
+pattern.match("abc.")
+```{{execute}}
 
 # Task
 

@@ -8,7 +8,7 @@ Try to use *split* to get the sentences from the document. (Hint: Try simple sol
 
 ## Task
 
-Get the sereis of data for the word counts in all the documents. Get the basic statistics and find out about the distribution.
+Get the series of data for the word counts in all the documents. Get the basic statistics and find out about the distribution.
 
 You should get the visualization like this:
 
