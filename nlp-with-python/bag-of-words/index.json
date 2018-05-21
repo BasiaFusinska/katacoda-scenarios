@@ -8,6 +8,10 @@
     {
       "title": "Read data",
       "text": "read_data.md"
+    },
+    {
+      "title": "Tokenizing",
+      "text": "tokenizing.md"
     }
     ],
     "intro": {
