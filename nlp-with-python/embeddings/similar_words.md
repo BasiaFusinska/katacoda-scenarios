@@ -23,3 +23,5 @@ get_similar_words("british", embeddings)
 get_similar_words("china", embeddings)
 get_similar_words("chinese", embeddings)
 ```{{execute}}
+
+Feel free to check other words. Make sure they are in the vocabulary.

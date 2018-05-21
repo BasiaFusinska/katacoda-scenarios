@@ -16,6 +16,10 @@
     {
       "title": "Similar words",
       "text": "similar_words.md"
+    },
+    {
+      "title": "Wrod mathematics",
+      "text": "maths.md"
     }
     ],
     "intro": {
@@ -26,8 +30,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": [{"file": "data_reader.py", "target": "~/"},
-                 {"file": "vectors.vec", "target": "~/"}]
+      "client": [{"file": "data_reader.py", "target": "~/"}]
     }
   },
   "environment": {
