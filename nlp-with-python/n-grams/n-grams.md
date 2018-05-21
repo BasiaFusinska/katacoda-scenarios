@@ -3,7 +3,6 @@ The general function using `zip` would look like the following and use `n` as an
 ```
 def ngrams(tokens, n):
   return zip(*[tokens[i:] for i in range(n)])
-
 list(ngrams(sentence_tokens, 2))
 list(ngrams(sentence_tokens, 3))
 list(ngrams(sentence_tokens, 4))

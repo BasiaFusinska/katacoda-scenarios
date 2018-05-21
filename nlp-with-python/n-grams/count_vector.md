@@ -13,13 +13,13 @@ Let's have a look at the bigrams for one of the documents:
 document = documents[idx]
 analyze(document)`{{execute}}
 
-And to see the bigrams for the corpus:
-
-`vectorizer.get_feature_names()`{{execute}}
-
 Now you can transform the `document` using the `vectorizer`:
 
 `vectors = vectorizer.fit_transform(documents).toarray()
 vectors[idx]`{{execute}}
+
+And to see the bigrams for the corpus:
+
+`vectorizer.get_feature_names()`{{execute}}
 
 You can do the same using `TfidfVectorizer` too.
