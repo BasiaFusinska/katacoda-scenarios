@@ -10,8 +10,12 @@
       "text": "read_data.md"
     },
     {
-      "title": "documents",
+      "title": "Documents exploration",
       "text": "documents.md"
+    },
+    {
+      "title": "Tokenizing",
+      "text": "tokenizing.md"
     }
     ],
     "intro": {
