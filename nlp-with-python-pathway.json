@@ -8,6 +8,11 @@
       "description": "Using Python to clean text data"
     },
     {
+      "course_id": "nltk-intro",
+      "title": "Introduction to NLTK",
+      "description": "Introduction to NLTK"
+    },
+    {
       "course_id": "text-classification",
       "title": "Text Classification",
       "description": "Using Bag of Words model for text classification"

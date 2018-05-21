@@ -1,6 +1,6 @@
 {
-  "title": "Text Cleaning",
-  "description": "Using Python to clean text data",
+  "title": "Introduction to NLTK",
+  "description": "Introduction to NLTK",
   "difficulty": "beginner",
   "time": "20 minutes",
   "details": {
@@ -8,22 +8,6 @@
     {
       "title": "Read data",
       "text": "read_data.md"
-    },
-    {
-      "title": "Documents exploration",
-      "text": "documents.md"
-    },
-    {
-      "title": "Tokenizing",
-      "text": "tokenizing.md"
-    },
-    {
-      "title": "Counting words",
-      "text": "word_count.md"
-    },
-    {
-      "title": "Punctuation",
-      "text": "punctuation.md"
     }
     ],
     "intro": {
