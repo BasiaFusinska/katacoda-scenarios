@@ -15,10 +15,11 @@ Iterate through all the documents, use `word_tokenize` in every one of them and 
 Once you have all the words use [FreqDist](http://www.nltk.org/api/nltk.html#nltk.probability.FreqDist) class to get the frequencies. We've written a function for you to get the top words from the vocabulary you will be building.
 
 ```
+from nltk.probability import FreqDist
+
 def get_vocabulary(words, top=500):
     word_counts = FreqDist(words)
-
-    vocabulary = frequencies.most_common(top)
+    vocabulary = word_counts.most_common(top)
     return vocabulary
 
 get_vocabulary(words)
