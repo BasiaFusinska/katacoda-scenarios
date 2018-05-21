@@ -3,6 +3,11 @@
   "description": "Learn Natural Language Processing using Python language",
   "courses": [
     {
+      "course_id": "text-cleaning",
+      "title": "Text Cleaning",
+      "description": "Using Python to clean text data"
+    },
+    {
       "course_id": "text-classification",
       "title": "Text Classification",
       "description": "Using Bag of Words model for text classification"
