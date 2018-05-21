@@ -8,6 +8,10 @@
     {
       "title": "Read data",
       "text": "read_data.md"
+    },
+    {
+      "title": "Bigrams",
+      "text": "bigrams.md"
     }
     ],
     "intro": {
