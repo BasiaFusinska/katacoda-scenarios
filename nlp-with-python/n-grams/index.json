@@ -1,25 +1,13 @@
 {
-  "title": "Introduction to word embeddings",
-  "description": "Introduction to word embeddings",
+  "title": "Introduction to NLTK",
+  "description": "Introduction to NLTK",
   "difficulty": "beginner",
   "time": "20 minutes",
   "details": {
     "steps": [
     {
-      "title": "Read embeddings",
+      "title": "Read data",
       "text": "read_data.md"
-    },
-    {
-      "title": "Cosine similarity",
-      "text": "similarity.md"
-    },
-    {
-      "title": "Similar words",
-      "text": "similar_words.md"
-    },
-    {
-      "title": "Word mathematics",
-      "text": "maths.md"
     }
     ],
     "intro": {

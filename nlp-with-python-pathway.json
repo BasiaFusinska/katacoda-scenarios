@@ -26,6 +26,11 @@
       "course_id": "embeddings",
       "title": "Introduction to word embeddings",
       "description": "Introduction to word embeddings"
+    },
+    {
+      "course_id": "n-grams",
+      "title": "Introduction to n-grams",
+      "description": "Introduction to n-grams"
     }
   ]
 }
