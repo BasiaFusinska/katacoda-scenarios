@@ -4,13 +4,14 @@
   "difficulty": "beginner",
   "time": "20 minutes",
   "details": {
-    "steps": [{
-      "title": "Text Classification",
-      "text": "classification.md"
-    },
+    "steps": [
     {
       "title": "Read data",
       "text": "read_data.md"
+    },
+    {
+      "title": "documents",
+      "text": "documents.md"
     }
     ],
     "intro": {

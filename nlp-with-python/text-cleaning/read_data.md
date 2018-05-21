@@ -17,4 +17,5 @@ You can check the number of examples.
 As you can see we have 2000 reviews in the dataset. Pick and index number and see what some of then are doing.
 
 `example_idx = 75
-print(documents[example_idx])`{{execute}}
+document = documents[example_idx]
+document`{{execute}}
