@@ -20,6 +20,10 @@
     {
       "title": "Stop words",
       "text": "stop_words.md"
+    },
+    {
+      "title": "Words stemming",
+      "text": "stemmer.md"
     }
     ],
     "intro": {
