@@ -11,6 +11,10 @@
       {
         "title": "Loading the data",
         "text": "data.md"
+      },
+      {
+        "title": "Building the classifier",
+        "text": "classifier.md"
       }],
     "intro": {
       "text": "intro.md",
