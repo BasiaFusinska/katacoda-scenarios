@@ -23,6 +23,10 @@
       {
         "title": "Evaluating the model",
         "text": "evaluate.md"
+      },
+      {
+        "title": "Classifying new reviews",
+        "text": "predict.md"
       }],
     "intro": {
       "text": "intro.md",
