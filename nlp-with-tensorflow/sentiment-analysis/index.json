@@ -15,6 +15,10 @@
       {
         "title": "Building the classifier",
         "text": "classifier.md"
+      },
+      {
+        "title": "Training the model",
+        "text": "train.md"
       }],
     "intro": {
       "text": "intro.md",
