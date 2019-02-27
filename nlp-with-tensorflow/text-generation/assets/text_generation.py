@@ -61,4 +61,4 @@ def generate_text(model, start_text, generate_len = 1000):
         generated_text.append(index2char[predicted_index])
     return '{0}{1}'.format(start_text, ''.join(generated_text))
 
-print(generate_text(model_trained, u"ROMEO: "))
+print(generate_text(model, u"ROMEO: "))
