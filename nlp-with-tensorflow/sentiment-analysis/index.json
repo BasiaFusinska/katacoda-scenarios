@@ -19,6 +19,10 @@
       {
         "title": "Training the model",
         "text": "train.md"
+      },
+      {
+        "title": "Evaluating the model",
+        "text": "evaluate.md"
       }],
     "intro": {
       "text": "intro.md",
