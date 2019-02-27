@@ -1,4 +1,6 @@
-Let's first download and load the data. They will be stored in the `train_data` and `test_data` variables.
+Let's first download and load the data.
+
+The data will be stored in the `train_data` and `test_data` variables.
 
 `dataset_path = download_dataset(dataset_name, dataset_uri, True)
 train_data, test_data = load_data()`{{execute}}

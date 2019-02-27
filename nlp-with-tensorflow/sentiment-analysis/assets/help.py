@@ -3,9 +3,6 @@ import numpy as np
 import os
 import pandas as pd
 
-dataset_uri = "http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz"
-dataset_name = "aclImdb"
-
 def download_dataset(dataset_name, dataset_uri, extract=False, extract_ext="tar.gz"):
     fname = "{}.{}".format(dataset_name, extract_ext) if extract else dataset_name 
     return tf.keras.utils.get_file(
