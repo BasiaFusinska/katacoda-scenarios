@@ -1,0 +1,35 @@
+{
+  "title": "Sentiment analysis",
+  "description": "Scenario for text classification for sentiment",
+  "difficulty": "beginner",
+  "time": "20 minutes",
+  "details": {
+    "steps": [{
+      "title": "Importing packages",
+      "text": "import.md"
+      },
+      {
+        "title": "Loading the data",
+        "text": "data.md"
+      }],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [{"file": "help.py", "target": "~/"},
+                {"file": "sentiment.py", "target": "~/"}]
+    }
+
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "tensorflow"
+  }
+}
