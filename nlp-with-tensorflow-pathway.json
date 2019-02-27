@@ -6,6 +6,11 @@
       "course_id": "sentiment-analysis",
       "title": "Sentiment Analysis",
       "description": "Using TensorFlow for text classification"
+    },
+    {
+      "course_id": "text-generation",
+      "title": "Text generation",
+      "description": "Using TensorFlow for text generation"
     }
   ]
 }
