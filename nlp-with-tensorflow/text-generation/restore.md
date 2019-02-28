@@ -11,4 +11,4 @@ def load_saved_model(checkpoint):
 
 And restore the model:
 
-`generative_model = load_saved_model(tf.train.latest_checkpoint(checkpoint_model_dir))`{{execute}}
+`generative_model = load_saved_model(tf.train.latest_checkpoint(checkpoint_dir))`{{execute}}
