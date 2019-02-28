@@ -21,6 +21,10 @@
         "text": "train.md"
       },
       {
+        "title": "Restoring the model",
+        "text": "restore.md"
+      },
+      {
         "title": "Text generation",
         "text": "generation.md"
       }],

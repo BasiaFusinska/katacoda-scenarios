@@ -15,5 +15,5 @@ def generate_text(model, start_text, generate_len = 1000):
 
 We can use it for the trained model:
 
-`print(generate_text(model, u"ROMEO: "))`{{execute}}
+`print(generate_text(generative_model, u"ROMEO: "))`{{execute}}
 
