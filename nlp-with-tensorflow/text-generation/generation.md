@@ -4,7 +4,6 @@ Once you're confident about the model performance you can use it for text genera
 def generate_text(model, start_text, generate_len = 1000):
     input_indexes = tf.expand_dims([char2index[s] for s in start_text], 0)
     generated_text = []
-    
     model.reset_states()
     for idx in range(generate_len):
         predictions = tf.squeeze(model(input_indexes), 0)
