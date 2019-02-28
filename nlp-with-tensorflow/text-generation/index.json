@@ -33,7 +33,7 @@
     },
     "assets": {
       "client": [{"file": "help.py", "target": "~/"},
-                {"file": "sentiment.py", "target": "~/"}]
+                {"file": "text_generation.py", "target": "~/"}]
     }
 
   },
